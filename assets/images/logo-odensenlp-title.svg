@@ -1,0 +1,9 @@
+<svg width="980" height="280" viewBox="0 0 980 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="18" y="18" width="244" height="244" rx="42" fill="#F4F7F6"/>
+  <rect x="56" y="56" width="168" height="168" rx="28" fill="#0F5964"/>
+  <rect x="78" y="78" width="56" height="124" rx="10" fill="#C8102E"/>
+  <path d="M157 92H202C207.523 92 212 96.4772 212 102V178C212 183.523 207.523 188 202 188H157V92Z" fill="#E8F3F5"/>
+  <path d="M169 130H198" stroke="#0F5964" stroke-width="7" stroke-linecap="round"/>
+  <path d="M169 150H198" stroke="#0F5964" stroke-width="7" stroke-linecap="round"/>
+  <text x="300" y="171" fill="#1F2B2F" font-family="Manrope, Arial, sans-serif" font-size="110" font-weight="700">OdenseNLP</text>
+</svg>

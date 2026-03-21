@@ -132,6 +132,86 @@ p {
   display: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.front-minimal {
+  padding: 3.8rem 0 1.8rem;
+}
+
+.front-top {
+  text-align: center;
+  padding-bottom: 4.2rem;
+}
+
+.front-logo {
+  width: min(700px, 100%);
+  margin: 0 auto;
+}
+
+.front-subtitle {
+  max-width: 780px;
+  margin: 1.4rem auto 0;
+  font-size: 1.1rem;
+  color: var(--muted);
+}
+
+.front-block {
+  border-top: 1px solid var(--line);
+  padding: 4rem 0;
+}
+
+.front-block h2 {
+  margin-bottom: 1.2rem;
+}
+
+.front-block-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.news-list-minimal,
+.focus-list-minimal {
+  display: block;
+}
+
+.news-item-minimal {
+  padding: 1rem 0 1.2rem;
+  border-top: 1px solid var(--line);
+}
+
+.news-item-minimal:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.focus-list-minimal {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.focus-list-minimal li {
+  border-top: 1px solid var(--line);
+  padding: 1rem 0 1.2rem;
+}
+
+.focus-list-minimal li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
 .hero {
   padding: 5.6rem 0 4.4rem;
 }
@@ -427,6 +507,29 @@ p {
 
   .header-inner {
     flex-wrap: wrap;
+  }
+
+  .front-minimal {
+    padding-top: 2.8rem;
+  }
+
+  .front-top {
+    padding-bottom: 3rem;
+  }
+
+  .front-subtitle {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .front-block {
+    padding: 2.8rem 0;
+  }
+
+  .front-block-header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0.9rem;
   }
 
   .hero {
