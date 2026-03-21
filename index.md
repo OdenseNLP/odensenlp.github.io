@@ -14,7 +14,7 @@ permalink: /
       />
       <h1 class="visually-hidden">OdenseNLP</h1>
       <p class="front-subtitle">
-        Safe, Efficient and Public Natural Language Processing @ University of Southern Denmark
+        Safe, Efficient and Open Natural Language Processing @ University of Southern Denmark
       </p>
     </div>
   </section>
