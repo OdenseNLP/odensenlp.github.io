@@ -14,7 +14,7 @@ permalink: /
       />
       <h1 class="visually-hidden">OdenseNLP</h1>
       <p class="front-subtitle">
-        Safe, Efficient and Public Natural Language Processing @ University of Southern Denmark
+        Safe, Efficient and Open Natural Language Processing @ University of Southern Denmark
       </p>
     </div>
   </section>
@@ -55,6 +55,42 @@ permalink: /
           <h3>Open science</h3>
           <p>Reproducible code, reusable datasets, and transparent documentation.</p>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="front-block">
+    <div class="container">
+      <div class="front-block-header">
+        <h2>Repositories summary</h2>
+        <a href="{{ '/repositories/' | relative_url }}">See all repositories</a>
+      </div>
+      {% assign summary_repos = site.data.repositories | slice: 0, 3 %}
+      <div class="summary-cards">
+        {% for repo in summary_repos %}
+          <article class="summary-card">
+            <h3><a href="{{ repo.link }}" target="_blank" rel="noopener">{{ repo.name }}</a></h3>
+            <p>{{ repo.description | truncate: 150 }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="front-block">
+    <div class="container">
+      <div class="front-block-header">
+        <h2>Datasets summary</h2>
+        <a href="{{ '/datasets/' | relative_url }}">See all datasets</a>
+      </div>
+      {% assign summary_datasets = site.data.datasets | slice: 0, 3 %}
+      <div class="summary-cards">
+        {% for dataset in summary_datasets %}
+          <article class="summary-card">
+            <h3><a href="{{ dataset.link }}" target="_blank" rel="noopener">{{ dataset.name }}</a></h3>
+            <p>{{ dataset.description | truncate: 150 }}</p>
+          </article>
+        {% endfor %}
       </div>
     </div>
   </section>

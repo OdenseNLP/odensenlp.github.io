@@ -4,7 +4,7 @@
   link: "https://github.com/N-essuno/DaLA"
 
 - name: brainsurgery
-  description: "Schneider-Kamp Lab repository for brain surgery related research code and experiments."
+  description: "Swiss-army-knife style toolkit for scripted tensor surgery on model checkpoints, with YAML plans, CLI workflows, and a Web UI."
   stack: "Python"
   link: "https://github.com/schneiderkamplab/brainsurgery"
 
