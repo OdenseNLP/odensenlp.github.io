@@ -13,10 +13,7 @@ layout: default
       <p class="eyebrow">Member</p>
       <h1>{{ page.name }}</h1>
       <p class="meta">{{ page.role }} · {{ page.affiliation }}</p>
-
-      {% if page.email %}
-        <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
-      {% endif %}
+      {% include member-links.html person=page %}
 
       {% if page.research_areas and page.research_areas.size > 0 %}
         <div class="tag-row">

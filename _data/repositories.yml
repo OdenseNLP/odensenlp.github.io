@@ -1,14 +1,24 @@
-- name: odensenlp-transformers
-  description: "Training and evaluation utilities for Danish and multilingual transformer experiments."
-  stack: "Python, PyTorch"
-  link: "https://github.com/odensenlp/odensenlp-transformers"
+- name: DaLA
+  description: "Source code for creating the Danish Corpus of Linguistic Acceptability, designed to evaluate Danish linguistic acceptability with real-world errors."
+  stack: "Python, Jupyter"
+  link: "https://github.com/N-essuno/DaLA"
 
-- name: odense-eval
-  description: "Reproducible benchmark harness for token classification, QA, and text generation tasks."
+- name: brainsurgery
+  description: "Schneider-Kamp Lab repository for brain surgery related research code and experiments."
   stack: "Python"
-  link: "https://github.com/odensenlp/odense-eval"
+  link: "https://github.com/schneiderkamplab/brainsurgery"
 
-- name: nordic-tokenizers
-  description: "Tokenizer experiments and morphological pre-processing tools for Scandinavian languages."
-  stack: "Rust, Python"
-  link: "https://github.com/odensenlp/nordic-tokenizers"
+- name: DeToNATION
+  description: "A communication framework that optimizes distributed AI training by reducing latency bottlenecks and handling heterogeneous clusters."
+  stack: "Python, Distributed Training"
+  link: "https://github.com/schneiderkamplab/DeToNATION"
+
+- name: JustEval
+  description: "A streamlined framework for evaluating language generation quality in two steps: generation and automatic evaluation."
+  stack: "Python"
+  link: "https://github.com/schneiderkamplab/JustEval"
+
+- name: SDU-Daisy
+  description: "Benchmark and tooling for evaluating LLM understanding of Danish culture using closed question-answer pairs grounded in the Danish Culture Canon."
+  stack: "Python"
+  link: "https://github.com/schneiderkamplab/SDU-Daisy"

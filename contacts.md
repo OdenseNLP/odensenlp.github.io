@@ -19,7 +19,6 @@ permalink: /contacts/
     <h3>Direct contact</h3>
     <p><strong>Email:</strong> <a href="mailto:{{ site.data.contacts.email }}">{{ site.data.contacts.email }}</a></p>
     <p><strong>Phone:</strong> {{ site.data.contacts.phone }}</p>
-    <p><strong>Campus map:</strong> <a href="{{ site.data.contacts.map_link }}" target="_blank" rel="noopener">University of Southern Denmark, Odense</a></p>
   </section>
 </div>
 

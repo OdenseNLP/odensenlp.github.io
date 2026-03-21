@@ -14,7 +14,7 @@ permalink: /
       />
       <h1 class="visually-hidden">OdenseNLP</h1>
       <p class="front-subtitle">
-        Safe, Efficient and Open Natural Language Processing @ University of Southern Denmark
+        Safe, Efficient and Public Natural Language Processing @ University of Southern Denmark
       </p>
     </div>
   </section>
@@ -42,20 +42,20 @@ permalink: /
   <section class="front-block">
     <div class="container">
       <h2>Current focuses</h2>
-      <ul class="focus-list-minimal">
-        <li>
+      <div class="focus-cards">
+        <article class="focus-card">
           <h3>Low-resource Nordic NLP</h3>
           <p>Language technologies for Danish and neighboring Scandinavian languages.</p>
-        </li>
-        <li>
+        </article>
+        <article class="focus-card">
           <h3>Trustworthy models</h3>
           <p>Interpretability, error analysis, and fair evaluation for real-world systems.</p>
-        </li>
-        <li>
+        </article>
+        <article class="focus-card">
           <h3>Open science</h3>
           <p>Reproducible code, reusable datasets, and transparent documentation.</p>
-        </li>
-      </ul>
+        </article>
+      </div>
     </div>
   </section>
 </div>

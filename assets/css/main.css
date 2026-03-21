@@ -44,6 +44,10 @@ img {
   margin: 0 auto;
 }
 
+.container-wide {
+  width: min(1480px, calc(100% - 2.2rem));
+}
+
 .section {
   padding: 2.5rem 0;
 }
@@ -181,8 +185,7 @@ p {
   margin-bottom: 1.2rem;
 }
 
-.news-list-minimal,
-.focus-list-minimal {
+.news-list-minimal {
   display: block;
 }
 
@@ -196,20 +199,21 @@ p {
   padding-top: 0;
 }
 
-.focus-list-minimal {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.focus-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
 }
 
-.focus-list-minimal li {
-  border-top: 1px solid var(--line);
-  padding: 1rem 0 1.2rem;
+.focus-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1rem;
 }
 
-.focus-list-minimal li:first-child {
-  border-top: 0;
-  padding-top: 0;
+.focus-card p {
+  margin-bottom: 0;
 }
 
 .hero {
@@ -345,20 +349,20 @@ p {
 
 .member-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.2rem;
   margin-top: 1.3rem;
 }
 
 .member-card {
   background: var(--surface);
-  border-radius: var(--radius);
+  border-radius: 10px;
   border: 1px solid var(--line);
   overflow: hidden;
 }
 
 .member-card img {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   width: 100%;
   background: var(--surface-muted);
@@ -373,6 +377,41 @@ p {
   flex-wrap: wrap;
   gap: 0.45rem;
   margin-top: 0.75rem;
+}
+
+.member-links {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.member-link {
+  width: 31px;
+  height: 31px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.member-link svg {
+  width: 16px;
+  height: 16px;
+  fill: currentcolor;
+}
+
+.member-link:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.member-link.is-disabled {
+  opacity: 0.35;
 }
 
 .tag {
@@ -414,6 +453,10 @@ p {
 
 .prose {
   max-width: 75ch;
+}
+
+.content-wide {
+  max-width: none;
 }
 
 .prose ul {

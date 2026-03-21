@@ -3,6 +3,8 @@ layout: page
 title: Members
 lead: People in the OdenseNLP research group. Add or edit members in the `_members/` collection.
 permalink: /members/
+wide: true
+container: wide
 ---
 
 {% assign sorted_members = site.members | sort: "order" %}
@@ -15,6 +17,7 @@ permalink: /members/
         <h3><a href="{{ member.url | relative_url }}">{{ member.name }}</a></h3>
         <p class="meta">{{ member.role }}</p>
         <p>{{ member.excerpt | strip_html | truncate: 135 }}</p>
+        {% include member-links.html person=member %}
         {% if member.research_areas and member.research_areas.size > 0 %}
           <div class="tag-row">
             {% for area in member.research_areas %}

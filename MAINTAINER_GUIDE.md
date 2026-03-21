@@ -59,6 +59,9 @@ name: First Last
 role: PhD Fellow
 affiliation: University of Southern Denmark (SDU)
 email: person@sdu.dk
+github: https://github.com/username
+linkedin: https://www.linkedin.com/in/username
+scholar: https://scholar.google.com/citations?user=...
 image: /assets/images/members/first-last.jpg
 order: 5
 research_areas:
@@ -79,6 +82,7 @@ Tips:
 
 - `order` controls sorting on the Members page.
 - Each member gets an automatic profile page at `/members/<filename>/`.
+- Member cards/profile pages show icons for mail, GitHub, LinkedIn, and Scholar; add/remove those fields to control active links.
 
 ## 4. Add a publication
 
@@ -149,7 +153,7 @@ If adding a new page, also create corresponding `*.md` file with front matter.
 
 ## 9. Replace logo and member images
 
-- Replace `assets/images/logo-odensenlp.svg` with the official logo (same path keeps templates unchanged).
+- Replace `assets/images/logo-odensenlp.svg` (menu logo) and `assets/images/logo-odensenlp-title.svg` (front-page centered logo/title) with official assets.
 - Add member photos in `assets/images/members/` and update each member file `image:` value.
 
 ## 10. Local preview (optional)

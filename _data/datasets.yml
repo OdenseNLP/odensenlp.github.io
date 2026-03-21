@@ -1,20 +1,13 @@
-- name: OdenseCorpus
-  languages: "Danish, English"
-  license: "CC BY 4.0"
-  description: "Balanced multi-domain corpus for language modeling, tagging, and text classification."
-  link: "https://example.org/odensecorpus"
+- name: DaLA
+  languages: "Danish"
+  license: "See dataset card"
+  description: "Danish linguistic acceptability dataset with corrupted and non-corrupted sentences, published as ~8.68k examples with train/val/test and full-train splits."
+  link: "https://huggingface.co/datasets/giannor/dala"
   status: "Active"
 
-- name: SDU Clinical Notes (De-identified)
+- name: SDU-Daisy
   languages: "Danish"
-  license: "Research-only agreement"
-  description: "Controlled-access clinical note dataset for domain adaptation and terminology extraction."
-  link: "https://example.org/sdu-clinical"
-  status: "By request"
-
-- name: NordicQA-Small
-  languages: "Danish, Swedish, Norwegian"
-  license: "MIT"
-  description: "Question-answering dataset with aligned passages across Scandinavian languages."
-  link: "https://example.org/nordicqa-small"
+  license: "See dataset card"
+  description: "Danish-culture benchmark dataset based on the Danish Culture Canon, with 746 closed question-answer pairs for evaluating LLM cultural understanding."
+  link: "https://huggingface.co/datasets/schneiderkamplab/SDU-Daisy"
   status: "Active"
