@@ -1,0 +1,25 @@
+title: OdenseNLP
+description: Natural Language Processing Research Group at the University of Southern Denmark (SDU)
+url: ""
+baseurl: ""
+timezone: Europe/Copenhagen
+permalink: pretty
+markdown: kramdown
+
+collections:
+  members:
+    output: true
+    permalink: /members/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      category: news
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: member

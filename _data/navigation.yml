@@ -1,0 +1,14 @@
+- title: Home
+  url: /
+- title: Members
+  url: /members/
+- title: Publications
+  url: /publications/
+- title: Datasets
+  url: /datasets/
+- title: Repositories
+  url: /repositories/
+- title: Blog posts/news
+  url: /blog/
+- title: Contacts
+  url: /contacts/

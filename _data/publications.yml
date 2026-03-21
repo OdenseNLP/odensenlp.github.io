@@ -1,0 +1,27 @@
+- year: 2026
+  authors: "Larsen, A.; Jensen, S.; Nielsen, M."
+  title: "NordicBench: A Benchmark Suite for Low-Resource Scandinavian NLP"
+  venue: "Transactions of the ACL"
+  link: "https://example.org/nordicbench"
+  note: "Open access"
+
+- year: 2025
+  authors: "Petersen, J.; Larsen, A."
+  title: "Efficient Domain Adaptation for Danish Clinical Text"
+  venue: "EMNLP 2025"
+  link: "https://example.org/domain-adaptation-danish"
+  note: "Main conference"
+
+- year: 2025
+  authors: "Nielsen, M.; Team OdenseNLP"
+  title: "OdenseCorpus v2: A Curated Corpus for Danish and Multilingual NLP"
+  venue: "LREC-COLING 2025"
+  link: "https://example.org/odensecorpus-v2"
+  note: "Resource paper"
+
+- year: 2024
+  authors: "Jensen, S.; Petersen, J.; Larsen, A."
+  title: "Transparent Error Analysis for Scandinavian Named Entity Recognition"
+  venue: "EACL 2024"
+  link: "https://example.org/scandi-ner-errors"
+  note: "Short paper"

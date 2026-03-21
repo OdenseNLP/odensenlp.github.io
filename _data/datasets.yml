@@ -1,0 +1,20 @@
+- name: OdenseCorpus
+  languages: "Danish, English"
+  license: "CC BY 4.0"
+  description: "Balanced multi-domain corpus for language modeling, tagging, and text classification."
+  link: "https://example.org/odensecorpus"
+  status: "Active"
+
+- name: SDU Clinical Notes (De-identified)
+  languages: "Danish"
+  license: "Research-only agreement"
+  description: "Controlled-access clinical note dataset for domain adaptation and terminology extraction."
+  link: "https://example.org/sdu-clinical"
+  status: "By request"
+
+- name: NordicQA-Small
+  languages: "Danish, Swedish, Norwegian"
+  license: "MIT"
+  description: "Question-answering dataset with aligned passages across Scandinavian languages."
+  link: "https://example.org/nordicqa-small"
+  status: "Active"

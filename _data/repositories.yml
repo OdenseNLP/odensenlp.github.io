@@ -1,0 +1,14 @@
+- name: odensenlp-transformers
+  description: "Training and evaluation utilities for Danish and multilingual transformer experiments."
+  stack: "Python, PyTorch"
+  link: "https://github.com/odensenlp/odensenlp-transformers"
+
+- name: odense-eval
+  description: "Reproducible benchmark harness for token classification, QA, and text generation tasks."
+  stack: "Python"
+  link: "https://github.com/odensenlp/odense-eval"
+
+- name: nordic-tokenizers
+  description: "Tokenizer experiments and morphological pre-processing tools for Scandinavian languages."
+  stack: "Rust, Python"
+  link: "https://github.com/odensenlp/nordic-tokenizers"

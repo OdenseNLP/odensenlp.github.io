@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<article class="container section member-profile">
+  <a class="back-link" href="{{ '/members/' | relative_url }}">&larr; Back to members</a>
+
+  <div class="profile-grid">
+    <div class="profile-image-wrap">
+      <img src="{{ page.image | default: '/assets/images/members/member-placeholder.svg' | relative_url }}" alt="Portrait of {{ page.name }}" class="profile-image" />
+    </div>
+
+    <div>
+      <p class="eyebrow">Member</p>
+      <h1>{{ page.name }}</h1>
+      <p class="meta">{{ page.role }} · {{ page.affiliation }}</p>
+
+      {% if page.email %}
+        <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+      {% endif %}
+
+      {% if page.research_areas and page.research_areas.size > 0 %}
+        <div class="tag-row">
+          {% for area in page.research_areas %}
+            <span class="tag">{{ area }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="prose profile-body">
+    {{ content }}
+  </div>
+</article>
