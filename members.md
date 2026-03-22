@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Members
+title: People
 lead: People in the OdenseNLP research group. Add or edit members in the `_members/` collection.
 permalink: /members/
 wide: true

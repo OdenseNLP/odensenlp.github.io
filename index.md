@@ -7,11 +7,14 @@ permalink: /
 <div class="front-minimal">
   <section class="front-top">
     <div class="container">
-      <img
-        class="front-logo"
-        src="{{ '/assets/images/logo-odensenlp-title.svg' | relative_url }}"
-        alt="OdenseNLP"
-      />
+      {% assign front_hero = site.data.frontpage.hero_image | default: '/assets/images/frontpage-hero-placeholder.svg' %}
+      <div class="front-hero-media" style="--front-hero-image: url('{{ front_hero | relative_url }}');">
+        <img
+          class="front-logo"
+          src="{{ '/assets/images/logo-odensenlp-title.svg' | relative_url }}"
+          alt="OdenseNLP"
+        />
+      </div>
       <h1 class="visually-hidden">OdenseNLP</h1>
       <p class="front-subtitle">
         Safe, Efficient and Open Natural Language Processing @ University of Southern Denmark
@@ -29,10 +32,20 @@ permalink: /
       {% assign latest_posts = site.posts | slice: 0, 4 %}
       <div class="news-list-minimal" aria-label="Latest news">
         {% for post in latest_posts %}
-          <article class="news-item-minimal">
-            <p class="meta">{{ post.date | date: "%d %B %Y" }}</p>
-            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-            <p>{{ post.excerpt | strip_html | truncate: 185 }}</p>
+          <article class="news-item-minimal {% if post.image %}with-image{% endif %}">
+            {% if post.image %}
+              {% assign news_image = post.image %}
+              {% if news_image contains '://' %}
+                <img class="news-item-image" src="{{ news_image }}" alt="{{ post.image_alt | default: post.title }}" />
+              {% else %}
+                <img class="news-item-image" src="{{ news_image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" />
+              {% endif %}
+            {% endif %}
+            <div>
+              <p class="meta">{{ post.date | date: "%d %B %Y" }}</p>
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <p>{{ post.excerpt | strip_html | truncate: 185 }}</p>
+            </div>
           </article>
         {% endfor %}
       </div>

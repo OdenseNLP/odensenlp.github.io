@@ -30,6 +30,9 @@ Template:
 ```markdown
 ---
 title: New paper accepted at ACL
+image: /assets/images/news/news-photo.jpg
+image_alt: Short alt text
+image_caption: Optional caption text
 ---
 
 Short update text here.
@@ -40,6 +43,7 @@ Notes:
 - Posts are shown automatically on `/blog/`.
 - The latest 3 posts are shown on the front page.
 - Newest date appears first.
+- `image`, `image_alt`, and `image_caption` are optional. If `image` is set, the image is shown on the post page and in news lists.
 
 ## 3. Add or edit a member
 
@@ -154,6 +158,7 @@ If adding a new page, also create corresponding `*.md` file with front matter.
 ## 9. Replace logo and member images
 
 - Replace `assets/images/logo-odensenlp.svg` (menu logo) and `assets/images/logo-odensenlp-title.svg` (front-page centered logo/title) with official assets.
+- To change the image behind the front-page logo block, edit `_data/frontpage.yml` (`hero_image`) and point it to your image path.
 - Add member photos in `assets/images/members/` and update each member file `image:` value.
 
 ## 10. Local preview (optional)

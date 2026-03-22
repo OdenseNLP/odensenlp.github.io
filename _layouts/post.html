@@ -7,6 +7,19 @@ layout: default
     <h1>{{ page.title }}</h1>
     <p class="meta">{{ page.date | date: "%d %B %Y" }}</p>
   </header>
+  {% if page.image %}
+    {% assign post_image = page.image %}
+    <figure class="post-hero-image-wrap">
+      {% if post_image contains '://' %}
+        <img class="post-hero-image" src="{{ post_image }}" alt="{{ page.image_alt | default: page.title }}" />
+      {% else %}
+        <img class="post-hero-image" src="{{ post_image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" />
+      {% endif %}
+      {% if page.image_caption %}
+        <figcaption class="meta">{{ page.image_caption }}</figcaption>
+      {% endif %}
+    </figure>
+  {% endif %}
   <div class="prose">
     {{ content }}
   </div>
