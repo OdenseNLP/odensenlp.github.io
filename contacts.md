@@ -18,7 +18,7 @@ permalink: /contacts/
   <section class="contact-card">
     <h3>Direct contact</h3>
     <p><strong>Email:</strong> <a href="mailto:{{ site.data.contacts.email }}">{{ site.data.contacts.email }}</a></p>
-    <p><strong>Phone:</strong> {{ site.data.contacts.phone }}</p>
+    <!-- <p><strong>Phone:</strong> {{ site.data.contacts.phone }}</p> -->
   </section>
 </div>
 
