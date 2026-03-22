@@ -7,7 +7,7 @@ permalink: /
 <div class="front-minimal">
   <section class="front-top">
     <div class="container">
-      {% assign front_hero = site.data.frontpage.hero_image | default: '/assets/images/frontpage-hero-placeholder.svg' %}
+      {% assign front_hero = site.data.frontpage.hero_image | default: '/assets/images/odense.jpg' %}
       <div class="front-hero-media" style="--front-hero-image: url('{{ front_hero | relative_url }}');">
         <img
           class="front-logo"
