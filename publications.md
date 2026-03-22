@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-lead: Selected OdenseNLP publications. Edit entries in `_data/publications.yml`.
+lead: Selected OdenseNLP publications.
 permalink: /publications/
 ---
 

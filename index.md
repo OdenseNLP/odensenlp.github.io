@@ -57,16 +57,16 @@ permalink: /
       <h2>Current focuses</h2>
       <div class="focus-cards">
         <article class="focus-card">
-          <h3>Low-resource Nordic NLP</h3>
-          <p>Language technologies for Danish and neighboring Scandinavian languages.</p>
+          <h3>Low-resource NLP</h3>
+          <p>Language technologies for low-resource langauges, particularly Danish and neighboring Scandinavian languages.</p>
         </article>
         <article class="focus-card">
-          <h3>Trustworthy models</h3>
-          <p>Interpretability, error analysis, and fair evaluation for real-world systems.</p>
+          <h3>Efficient NLP</h3>
+          <p>Fast and efficient NLP architectures and methods.</p>
         </article>
         <article class="focus-card">
-          <h3>Open science</h3>
-          <p>Reproducible code, reusable datasets, and transparent documentation.</p>
+          <h3>AI Safety & Interpretability</h3>
+          <p>Making AI systems more safe, trustworthy, and interpretable.</p>
         </article>
       </div>
     </div>

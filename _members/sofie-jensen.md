@@ -4,7 +4,7 @@ role: Postdoctoral Researcher
 affiliation: University of Southern Denmark (SDU)
 email: sjensen@sdu.dk
 image: /assets/images/members/member-placeholder.svg
-order: 3
+order: 4
 research_areas:
   - Evaluation methodology
   - Explainability

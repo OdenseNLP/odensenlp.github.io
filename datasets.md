@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Datasets
-lead: Open and controlled-access datasets released or maintained by OdenseNLP.
+lead: Open datasets released or maintained by OdenseNLP.
 permalink: /datasets/
 ---
 
