@@ -9,9 +9,9 @@ scholar: https://scholar.google.com/citations?user=AHGGdYQAAAAJ
 image: /assets/images/members/lukas.jpg
 order: 1
 research_areas:
-  - Language modeling
+  - Language Modeling
   - Interpretability
-  - Multi-agent safety
+  - Multi-agent Safety
 ---
 
 My research advances AI safety by investigating how and why advanced AI systems behave the way they do. [Website](https://lgalke.github.io)
