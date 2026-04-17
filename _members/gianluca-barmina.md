@@ -9,10 +9,9 @@ scholar: https://scholar.google.com/citations?user=Ou_gUz0AAAAJ
 image: /assets/images/members/gianluca.jpg
 order: 2
 research_areas:
-  - Language Modelling
   - Evaluation
   - Interpretability
   - LLMs + KGs
 ---
 
-I work on LLMs evaluation, tasks and dataset design and development, and interpretability, currently with a focus on representational engineering of LLMs. I'm also interested in the intersection of LLMs and knowledge graphs, and how to leverage structured knowledge to improve LLMs performance and interpretability. I love working with language and multilingual settings.
+I primarily work on LLMs evaluation and interpretability, currently with a focus on representational engineering of LLMs. I'm also interested in the intersection of LLMs and knowledge graphs, and how to leverage structured knowledge to improve LLMs performance and explainability. I love working with language, multilingual settings and societal applications of NLP.
