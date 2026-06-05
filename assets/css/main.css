@@ -180,7 +180,7 @@ p {
 }
 
 .front-brand-logo {
-  width: clamp(88px, 10vw, 124px);
+  width: clamp(100px, 11vw, 150px);
   height: auto;
   flex: 0 0 auto;
 }
