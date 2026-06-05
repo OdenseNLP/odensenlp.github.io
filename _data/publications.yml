@@ -1,8 +1,64 @@
+- year: 2026
+  authors: "Pirchert, Annemette Brok; Nielsen, Jacob; From, Mogens Henrik; Poech, Lukas Galke; Schneider-Kamp, Peter"
+  title: "FlexMoRE: A Flexible Mixture of Rank-heterogeneous Experts for Efficient Federatedly-trained Large Language Models"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2602.08818"
+  note: "arXiv"
+
+- year: 2026
+  authors: "Beltoft, Stine Lyngso; Brach, William; Torrielli, Federico; Nielsen, Jacob; Pirchert, Annemette Brok; Tonini, Filippo; Schneider-Kamp, Peter; Poech, Lukas Galke"
+  title: "Emergent Languages in Populations of Language Model Agents: From Token Efficiency to Oversight Evasion"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2605.31170"
+  note: "arXiv"
+
+- year: 2026
+  authors: "Torrielli, Federico; Schneider-Kamp, Peter; Poech, Lukas Galke"
+  title: "Confidence and Calibration of Activation Oracles for Reliable Interpretation of Language Model Internals"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2605.26045"
+  note: "arXiv"
+
+- year: 2026
+  authors: "Brach, William; Torrielli, Federico; Beltoft, Stine Lyngso; Pirchert, Annemette Brok; Schneider-Kamp, Peter; Poech, Lukas Galke"
+  title: "The Moltbook Files: A Harmless Slopocalypse or Humanity's Last Experiment"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2605.07462"
+  note: "arXiv"
+
+- year: 2026
+  authors: "Barmina, Gianluca; Schneider-Kamp, Peter; Poech, Lukas Galke"
+  title: "LLMs Can Leak Training Data But Do They Want To? A Propensity-Aware Evaluation of Memorization in LLMs"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2606.06286"
+  note: "arXiv"
+
 - year: 2025
   authors: "Barmina, Gianluca; Norman, Nathalie Carmen Hau; Schneider-Kamp, Peter; Poech, Lukas Galke"
   title: "DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors"
   venue: "LREC 2026"
   link: "https://arxiv.org/abs/2512.04799"
+  note: "arXiv"
+
+- year: 2025
+  authors: "Tonini, Filippo; Galke, Lukas"
+  title: "Super-additive Cooperation in Language Model Agents"
+  venue: "FAIEMA 2025"
+  link: "https://arxiv.org/abs/2508.15510"
+  note: "arXiv"
+
+- year: 2025
+  authors: "Nielsen, Jacob; Schneider-Kamp, Peter; Poech, Lukas Galke"
+  title: "Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.58-bit pre-training for BitNet language models?"
+  venue: "Findings of ACL 2025"
+  link: "https://aclanthology.org/2025.findings-acl.694/"
+  note: "ACL Anthology"
+
+- year: 2025
+  authors: "Mellgren, Niklas; Schneider-Kamp, Peter; Poech, Lukas Galke"
+  title: "Training Language Models to Use Prolog as a Tool"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2512.07407"
   note: "arXiv"
 
 - year: 2025
@@ -12,9 +68,51 @@
   link: "https://arxiv.org/abs/2502.06728"
   note: "arXiv"
 
+- year: 2025
+  authors: "Namazifard, Danial; Poech, Lukas Galke"
+  title: "Isolating Culture Neurons in Multilingual Large Language Models"
+  venue: "Findings of IJCNLP-AACL 2025"
+  link: "https://aclanthology.org/2025.findings-ijcnlp.45/"
+  note: "ACL Anthology"
+
+- year: 2025
+  authors: "Brach, William; Kostal, Kristian; Poech, Lukas Galke"
+  title: "Chain of Summaries: Summarization Through Iterative Questioning"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2511.15719"
+  note: "arXiv"
+
+- year: 2025
+  authors: "Beltoft, Stine; Galke, Lukas"
+  title: "Not Everything That Counts Can Be Counted: A Case for Safe Qualitative AI"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2511.09325"
+  note: "arXiv"
+
+- year: 2025
+  authors: "Blasi Nunez, Andrea; Galke, Lukas Paul Achatius; Schneider-Kamp, Peter"
+  title: "MLDataForge: Accelerating Large-Scale Dataset Preprocessing and Access for Multimodal Foundation Model Training"
+  venue: "RANLP 2025"
+  link: "https://aclanthology.org/2025.ranlp-1.21/"
+  note: "ACL Anthology"
+
 - year: 2026
   authors: "Nielsen, Jacob; Beltoft, Stine L.; Schneider-Kamp, Peter; Poech, Lukas Galke"
   title: "SDUs DAISY: A Benchmark for Danish Culture"
   venue: "arXiv preprint"
   link: "https://arxiv.org/pdf/2601.19930"
+  note: "arXiv"
+
+- year: 2024
+  authors: "Nielsen, Jacob; Schneider-Kamp, Peter"
+  title: "BitNet B1.58 Reloaded: State-of-the-Art Performance Also on Smaller Networks"
+  venue: "DeLTA 2024"
+  link: "https://link.springer.com/chapter/10.1007/978-3-031-66705-3_20"
+  note: "Springer"
+
+- year: 2024
+  authors: "Nielsen, Jacob; Poech, Lukas Galke; Schneider-Kamp, Peter"
+  title: "When are 1.58 bits enough? A Bottom-up Exploration of BitNet Quantization"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2411.05882"
   note: "arXiv"
