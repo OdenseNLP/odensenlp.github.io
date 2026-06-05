@@ -8,6 +8,8 @@ linkedin: https://www.linkedin.com/in/filippo-tonini-35b8a6283
 scholar: https://scholar.google.fr/citations?user=-IUzISAAAAAJ&hl=en
 image: /assets/images/members/filippo.jpg
 order: 5
+hidden_keywords:
+  - laquage
 research_areas:
   - AI Safety
   - Natural Language Processing

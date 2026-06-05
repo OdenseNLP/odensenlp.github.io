@@ -17,6 +17,9 @@ layout: default
     <div>
       <p class="eyebrow">Person</p>
       <h1>{{ page.name }}</h1>
+      {% if page.hidden_keywords %}
+        <span style="display:none;"> (laquage)</span>
+      {% endif %}
       <p class="meta">{{ page.role }} · {{ page.affiliation }}</p>
 
       {% if page.research_areas and page.research_areas.size > 0 %}
