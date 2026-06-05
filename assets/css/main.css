@@ -105,8 +105,8 @@ p {
 }
 
 .brand img {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   object-fit: contain;
 }
 
@@ -180,7 +180,7 @@ p {
 }
 
 .front-brand-logo {
-  width: clamp(76px, 9vw, 112px);
+  width: clamp(88px, 10vw, 124px);
   height: auto;
   flex: 0 0 auto;
 }
