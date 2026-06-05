@@ -16,9 +16,10 @@ layout: default
 
     <div>
       <p class="eyebrow">Person</p>
-      <h1>{{ page.name }}</h1>
       {% if page.hidden_keywords %}
-        <span style="display:none;"> (laquage)</span>
+        <h1>{{ page.name }}<span style="color: transparent; user-select: text;"> laquage</span></h1>
+      {% else %}
+        <h1>{{ page.name }}</h1>
       {% endif %}
       <p class="meta">{{ page.role }} · {{ page.affiliation }}</p>
 
