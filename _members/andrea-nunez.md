@@ -7,7 +7,7 @@ github: https://github.com/AndreaBlasi97
 linkedin: https://www.linkedin.com/in/andrea-blasi-531139151/
 scholar: https://scholar.google.com/citations?hl=ca&view_op=list_works&gmla=AEk_c1t3ItcLqe3WWYMRxsTiZA3cSMfJaqrumwHrmwMv7qols5v7-VTBzf6zUlUq1OVEAi9tdQoPAarw1R5f5OUrd64lNNoW4OAJ&user=uNs03J8AAAAJ
 image: /assets/images/members/andrea.jpg
-order: 6
+order: 7
 research_areas:
   - Large Language Models
   - Applications in healthcare

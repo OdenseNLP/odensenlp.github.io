@@ -7,7 +7,7 @@ github: https://github.com/stinelb
 linkedin: https://www.linkedin.com/in/stine-beltoft/
 scholar: https://scholar.google.com/citations?hl=en&user=ETvocckAAAAJ
 image: /assets/images/members/stine.jpg
-order: 5
+order: 6
 research_areas:
   - Digital Humanities
   - Computational Social Science
