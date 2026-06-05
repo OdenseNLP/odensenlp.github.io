@@ -10,6 +10,7 @@ image: /assets/images/members/gianluca.jpg
 order: 3
 research_areas:
   - Evaluation
+  - AI Safety
   - Interpretability
   - LLMs + KGs
 ---
