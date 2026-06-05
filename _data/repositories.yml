@@ -1,3 +1,13 @@
+- name: PsychoSafe
+  description: "Pipeline for building and evaluating psychologically informed refusal behavior in large language models through data creation, prompting, fine-tuning, and evaluation."
+  stack: "Python"
+  link: "https://github.com/aisilab/psychological-safety"
+
+- name: PropMe
+  description: "Framework for evaluating memorization and propensity-aware memorization of training data in large language models."
+  stack: "Python"
+  link: "https://github.com/N-essuno/PropMe"
+
 - name: DaLA
   description: "Source code for creating the Danish Corpus of Linguistic Acceptability, designed to evaluate Danish linguistic acceptability with real-world errors."
   stack: "Python, Jupyter"
@@ -22,13 +32,3 @@
   description: "Benchmark and tooling for evaluating LLM understanding of Danish culture using closed question-answer pairs grounded in the Danish Culture Canon."
   stack: "Python"
   link: "https://github.com/schneiderkamplab/SDU-Daisy"
-
-- name: PsychoSafe
-  description: "Pipeline for building and evaluating psychologically informed refusal behavior in large language models through data creation, prompting, fine-tuning, and evaluation."
-  stack: "Python"
-  link: "https://github.com/aisilab/psychological-safety"
-
-- name: PropMe
-  description: "Framework for evaluating memorization and propensity-aware memorization of training data in large language models."
-  stack: "Python"
-  link: "https://github.com/N-essuno/PropMe"
