@@ -1,6 +1,6 @@
 ---
 title: MIST at OdenseNLP
-image: /assets/images/news/news-placeolder.svg
+image: /assets/images/news/news-placeholder.svg
 ---
 
 Assistant Professor Lukas Galke Poech from OdenseNLP is leading **MIST: Scalable Mechanistic Interpretability for Safe and Trustworthy LLM Agents**, a project focused on making language model agents better understood, safer, and more reliable in practice.
