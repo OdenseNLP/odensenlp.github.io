@@ -12,7 +12,7 @@ permalink: /
         <div class="front-brand">
           <img
             class="front-brand-logo"
-            src="{{ '/assets/images/onlp_logo_cropped.png' | relative_url }}"
+            src="{{ '/assets/images/onlp_logo_transparent.png' | relative_url }}"
             alt="OdenseNLP logo"
           />
           <span class="front-brand-text">OdenseNLP</span>

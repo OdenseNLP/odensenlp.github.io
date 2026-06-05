@@ -105,8 +105,8 @@ p {
 }
 
 .brand img {
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   object-fit: contain;
 }
 
@@ -173,21 +173,23 @@ p {
 .front-brand {
   display: inline-flex;
   align-items: center;
-  gap: clamp(0.9rem, 2vw, 1.5rem);
+  gap: clamp(0.7rem, 1.6vw, 1.1rem);
   margin: 0 auto;
+  max-width: min(820px, 92%);
   filter: drop-shadow(0 8px 20px rgba(14, 35, 39, 0.16));
 }
 
 .front-brand-logo {
-  width: clamp(84px, 11vw, 138px);
+  width: clamp(64px, 8vw, 96px);
   height: auto;
+  flex: 0 0 auto;
 }
 
 .front-brand-text {
-  font-size: clamp(2rem, 5.6vw, 4.8rem);
+  font-size: clamp(2.5rem, 6.8vw, 5.8rem);
   font-weight: 800;
-  line-height: 1;
-  letter-spacing: -0.04em;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
   color: var(--text);
 }
 
