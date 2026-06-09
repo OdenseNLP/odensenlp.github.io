@@ -9,4 +9,4 @@ OdenseNLP is part of the **Danish Foundation Models (DFM)** initiative: a nation
 
 The initiative brings together Danish research institutions, including **University of Southern Denmark (SDU)**, **Aarhus University**, **University of Copenhagen**, and the **Alexandra Institute**, and has received **30.7 million DKK** from the Danish Ministry of Digital Affairs to establish a secure R&D platform for training, fine-tuning, evaluating, and maintaining Danish foundation models.
 
-Read more at https://foundationmodels.dk and https://www.sdu.dk/en/om-sdu/institutter-centre/imada_matematik_og_datalogi/nyt_fra_imada/dansk-sprogmodels-projekt
+Read more at [https://foundationmodels.dk](https://foundationmodels.dk) and [https://www.sdu.dk/en/om-sdu/institutter-centre/imada_matematik_og_datalogi/nyt_fra_imada/dansk-sprogmodels-projekt](https://www.sdu.dk/en/om-sdu/institutter-centre/imada_matematik_og_datalogi/nyt_fra_imada/dansk-sprogmodels-projekt)
