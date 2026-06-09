@@ -13,6 +13,11 @@
   stack: "Python, Jupyter"
   link: "https://github.com/N-essuno/DaLA"
 
+- name: bitlinear
+  description: "Production-ready implementation of 1.58-bit layers for quantization-aware training and efficient inference."
+  stack: "Python"
+  link: "https://github.com/schneiderkamplab/bitlinear"
+
 - name: brainsurgery
   description: "Swiss-army-knife style toolkit for scripted tensor surgery on model checkpoints, with YAML plans, CLI workflows, and a Web UI."
   stack: "Python"
@@ -27,6 +32,21 @@
   description: "A streamlined framework for evaluating language generation quality in two steps: generation and automatic evaluation."
   stack: "Python"
   link: "https://github.com/schneiderkamplab/JustEval"
+
+- name: mldataforge
+  description: "Swiss-army-knife toolkit for transforming and processing machine learning datasets, including large-scale format conversion and splitting."
+  stack: "Python"
+  link: "https://github.com/schneiderkamplab/mldataforge"
+
+- name: mlgroom
+  description: "Utility for grooming and managing machine learning job queues."
+  stack: "Python"
+  link: "https://github.com/schneiderkamplab/mlgroom"
+
+- name: projectives
+  description: "AI-assisted analyser for projective techniques in qualitative health research."
+  stack: "Python"
+  link: "https://github.com/JacobBITLABS/projectives"
 
 - name: SDU-Daisy
   description: "Benchmark and tooling for evaluating LLM understanding of Danish culture using closed question-answer pairs grounded in the Danish Culture Canon."
