@@ -13,3 +13,4 @@ research_areas:
   - Hybrid AI
   - Legal AI
 ---
+I work with creating explainable and transparent AI systems for law by applying traditional AI methods in collaboration with Large Language Models.
