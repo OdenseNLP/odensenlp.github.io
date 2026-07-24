@@ -9,7 +9,7 @@ scholar: https://scholar.google.com/citations?user=M_xWdIIAAAAJ&hl=en
 image: /assets/images/members/jonas.jpg
 order: 10
 research_areas:
-  - Symbolic AI
-  - Hybrid AI
-  - Legal AI
+  - Symbolic AI
+  - Hybrid AI
+  - Legal AI
 ---
