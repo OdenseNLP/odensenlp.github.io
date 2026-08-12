@@ -40,20 +40,27 @@ wide: true
   <div class="publication-grid" aria-label="Publication list">
   {% for pub in publications %}
     <article class="publication-card" data-publication data-tags="{% if pub.tags %}{{ pub.tags | join: '|' | downcase | escape }}{% endif %}">
-      <p class="publication-meta">{{ pub.year }} · {{ pub.venue }}</p>
-      <h3><a href="{{ pub.link }}" target="_blank" rel="noopener">{{ pub.title }}</a></h3>
-      <p class="publication-authors">{{ pub.authors }}</p>
-      {% if pub.tags %}
-        <div class="publication-tags" aria-label="Topics">
-          {% for tag in pub.tags %}
-            <span class="tag">{{ tag }}</span>
-          {% endfor %}
+      <a class="publication-card-link" href="{{ pub.link }}" target="_blank" rel="noopener">
+        <div class="publication-card-data">
+          <div class="publication-card-data-header">
+            <span class="publication-year">{{ pub.year }}</span>
+            {% if pub.note %}<span class="publication-source">{{ pub.note }}</span>{% endif %}
+          </div>
+          <p class="publication-venue">{{ pub.venue }}</p>
+          {% if pub.tags %}
+            <div class="publication-tags" aria-label="Topics">
+              {% for tag in pub.tags %}
+                <span class="tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
-      {% endif %}
-      <p class="publication-link">
-        <a href="{{ pub.link }}" target="_blank" rel="noopener">Read paper <span aria-hidden="true">↗</span></a>
-        {% if pub.note %}<span>{{ pub.note }}</span>{% endif %}
-      </p>
+        <div class="publication-card-body">
+          <h3>{{ pub.title }}</h3>
+          <p class="publication-authors">{{ pub.authors }}</p>
+          <span class="publication-read">Read paper <span aria-hidden="true">↗</span></span>
+        </div>
+      </a>
     </article>
   {% endfor %}
   </div>
