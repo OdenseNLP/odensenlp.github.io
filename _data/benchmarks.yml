@@ -1,0 +1,13 @@
+- name: DaLA
+  languages: "Danish"
+  license: "See benchmark card"
+  description: "Danish linguistic acceptability benchmark with corrupted and non-corrupted sentences, published as ~8.68k examples with train/validation/test and full-training splits."
+  link: "https://huggingface.co/datasets/giannor/dala"
+  status: "Active"
+
+- name: SDU-Daisy
+  languages: "Danish"
+  license: "See benchmark card"
+  description: "Danish-culture benchmark based on the Danish Culture Canon, with 746 closed question-answer pairs for evaluating LLM cultural understanding."
+  link: "https://huggingface.co/datasets/schneiderkamplab/SDU-Daisy"
+  status: "Active"

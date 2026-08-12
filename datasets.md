@@ -5,6 +5,7 @@ lead: Open datasets released or maintained by OdenseNLP.
 permalink: /datasets/
 ---
 
+{% if site.data.datasets and site.data.datasets != empty %}
 <section class="resource-list" aria-label="Dataset list">
   {% for dataset in site.data.datasets %}
     <article class="resource-card">
@@ -15,3 +16,6 @@ permalink: /datasets/
     </article>
   {% endfor %}
 </section>
+{% else %}
+<p>Datasets will be added here soon.</p>
+{% endif %}

@@ -96,18 +96,38 @@ permalink: /
   <section class="front-block">
     <div class="container">
       <div class="front-block-header">
-        <h2>Datasets summary</h2>
-        <a href="{{ '/datasets/' | relative_url }}">See all datasets</a>
+        <h2>Benchmarks summary</h2>
+        <a href="{{ '/benchmarks/' | relative_url }}">See all benchmarks</a>
       </div>
-      {% assign summary_datasets = site.data.datasets | slice: 0, 3 %}
+      {% assign summary_benchmarks = site.data.benchmarks | slice: 0, 3 %}
       <div class="summary-cards">
-        {% for dataset in summary_datasets %}
+        {% for benchmark in summary_benchmarks %}
           <article class="summary-card">
-            <h3><a href="{{ dataset.link }}" target="_blank" rel="noopener">{{ dataset.name }}</a></h3>
-            <p>{{ dataset.description | truncate: 150 }}</p>
+            <h3><a href="{{ benchmark.link }}" target="_blank" rel="noopener">{{ benchmark.name }}</a></h3>
+            <p>{{ benchmark.description | truncate: 150 }}</p>
           </article>
         {% endfor %}
       </div>
     </div>
   </section>
+
+  {% if site.data.datasets and site.data.datasets != empty %}
+    <section class="front-block">
+      <div class="container">
+        <div class="front-block-header">
+          <h2>Datasets summary</h2>
+          <a href="{{ '/datasets/' | relative_url }}">See all datasets</a>
+        </div>
+        {% assign summary_datasets = site.data.datasets | slice: 0, 3 %}
+        <div class="summary-cards">
+          {% for dataset in summary_datasets %}
+            <article class="summary-card">
+              <h3><a href="{{ dataset.link }}" target="_blank" rel="noopener">{{ dataset.name }}</a></h3>
+              <p>{{ dataset.description | truncate: 150 }}</p>
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  {% endif %}
 </div>

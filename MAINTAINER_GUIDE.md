@@ -8,7 +8,7 @@ Common tasks:
 
 - Add a news post: create a file in `_posts/`
 - Add/edit a member: add/edit a file in `_members/`
-- Add publications/datasets/repos: edit files in `_data/`
+- Add publications, benchmarks, datasets, or repositories: edit files in `_data/`
 - Update static page text: edit `index.md` or one of the page files (`members.md`, `contacts.md`, etc.)
 
 ## 2. Add a new blog post/news item
@@ -103,7 +103,22 @@ Edit `_data/publications.yml` and append an entry:
 
 Publications are listed automatically on `/publications/`.
 
-## 5. Add a dataset
+## 5. Add a benchmark
+
+Edit `_data/benchmarks.yml` and append:
+
+```yaml
+- name: Benchmark name
+  languages: "Danish, English"
+  license: "CC BY 4.0"
+  description: "One-line summary"
+  link: "https://..."
+  status: "Active"
+```
+
+Benchmarks are listed automatically on `/benchmarks/` and summarized on the front page.
+
+## 6. Add a dataset
 
 Edit `_data/datasets.yml` and append:
 
@@ -116,9 +131,9 @@ Edit `_data/datasets.yml` and append:
   status: "Active"
 ```
 
-Datasets are listed automatically on `/datasets/`.
+Datasets are listed automatically on `/datasets/` and summarized on the front page once the data file contains at least one entry.
 
-## 6. Add a repository
+## 7. Add a repository
 
 Edit `_data/repositories.yml` and append:
 
@@ -131,7 +146,7 @@ Edit `_data/repositories.yml` and append:
 
 Repositories are listed automatically on `/repositories/`.
 
-## 7. Update contact details
+## 8. Update contact details
 
 Edit `_data/contacts.yml`:
 
@@ -142,7 +157,7 @@ Edit `_data/contacts.yml`:
 
 Changes appear automatically on `/contacts/` and footer email text.
 
-## 8. Update menu items
+## 9. Update menu items
 
 Edit `_data/navigation.yml`.
 
@@ -155,13 +170,13 @@ Each item needs:
 
 If adding a new page, also create corresponding `*.md` file with front matter.
 
-## 9. Replace logo and member images
+## 10. Replace logo and member images
 
 - Replace `assets/images/logo-odensenlp.svg` (menu logo) and `assets/images/logo-odensenlp-title.svg` (front-page centered logo/title) with official assets.
 - To change the image behind the front-page logo block, edit `_data/frontpage.yml` (`hero_image`) and point it to your image path.
 - Add member photos in `assets/images/members/` and update each member file `image:` value.
 
-## 10. Local preview (optional)
+## 11. Local preview (optional)
 
 If Ruby/Jekyll is installed locally:
 

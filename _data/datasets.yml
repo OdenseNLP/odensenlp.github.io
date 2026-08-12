@@ -1,13 +1,1 @@
-- name: DaLA
-  languages: "Danish"
-  license: "See dataset card"
-  description: "Danish linguistic acceptability dataset with corrupted and non-corrupted sentences, published as ~8.68k examples with train/val/test and full-train splits."
-  link: "https://huggingface.co/datasets/giannor/dala"
-  status: "Active"
-
-- name: SDU-Daisy
-  languages: "Danish"
-  license: "See dataset card"
-  description: "Danish-culture benchmark dataset based on the Danish Culture Canon, with 746 closed question-answer pairs for evaluating LLM cultural understanding."
-  link: "https://huggingface.co/datasets/schneiderkamplab/SDU-Daisy"
-  status: "Active"
+# Add dataset entries here using the template in MAINTAINER_GUIDE.md.
