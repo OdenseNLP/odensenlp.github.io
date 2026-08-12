@@ -20,6 +20,15 @@ permalink: /contacts/
     <p><strong>Email:</strong> <a href="mailto:{{ site.data.contacts.email }}">{{ site.data.contacts.email }}</a></p>
     <!-- <p><strong>Phone:</strong> {{ site.data.contacts.phone }}</p> -->
   </section>
+
+  {% for project in site.data.contacts.projects %}
+    <section class="contact-card contact-card-project">
+      <h3>{{ project.name }}</h3>
+      <p>{{ project.description }}</p>
+      <p><strong>Contact:</strong> {{ project.contact_name }} · <a href="mailto:{{ project.email }}">{{ project.email }}</a></p>
+      <p><a href="{{ project.url }}" target="_blank" rel="noopener">Project website <span aria-hidden="true">↗</span></a></p>
+    </section>
+  {% endfor %}
 </div>
 
 <section class="section" style="padding: 1.1rem 0 0;">

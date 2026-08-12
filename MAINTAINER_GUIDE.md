@@ -43,7 +43,7 @@ Notes:
 - Posts are shown automatically on `/blog/`.
 - The latest 3 posts are shown on the front page.
 - Newest date appears first.
-- `image`, `image_alt`, and `image_caption` are optional. If `image` is set, the image is shown on the post page and in news lists.
+- `image`, `image_alt`, and `image_caption` are optional. If `image` is omitted, `/assets/images/news/news-placeholder.svg` is used automatically. Set `image` to show a specific image on the post page and in news lists.
 
 ## 3. Add or edit a member
 
@@ -82,6 +82,8 @@ Then add the image file to:
 assets/images/members/first-last.jpg
 ```
 
+The `image` field is optional. If it is omitted, `/assets/images/members/member-placeholder.svg` is used automatically.
+
 Tips:
 
 - `order` controls sorting on the Members page.
@@ -116,6 +118,7 @@ Edit `_data/benchmarks.yml` and append:
   license: "CC BY 4.0"
   description: "One-line summary"
   link: "https://..."
+  link_label: "Optional custom link label"
   status: "Active"
 ```
 
@@ -157,6 +160,7 @@ Edit `_data/contacts.yml`:
 - address lines
 - email and phone
 - social links
+- project contacts, including project description, contact person, email, and website
 
 Changes appear automatically on `/contacts/` and footer email text.
 

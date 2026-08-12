@@ -12,7 +12,7 @@ permalink: /datasets/
       <h3>{{ dataset.name }}</h3>
       <p class="meta">{{ dataset.languages }} · {{ dataset.license }} · {{ dataset.status }}</p>
       <p>{{ dataset.description }}</p>
-      <p><a href="{{ dataset.link }}" target="_blank" rel="noopener">Dataset page</a></p>
+      <p><a href="{{ dataset.link }}" target="_blank" rel="noopener">{{ dataset.link_label | default: "Dataset page" }}</a></p>
     </article>
   {% endfor %}
 </section>

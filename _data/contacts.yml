@@ -10,3 +10,9 @@ social:
     url: "https://github.com/schneiderkamplab"
   - name: Hugging Face
     url: "https://huggingface.co/schneiderkamplab"
+projects:
+  - name: MIST @ OdenseNLP
+    description: "Scalable Mechanistic Interpretability for Safe and Trustworthy LLM Agents."
+    contact_name: Lukas Galke Poech
+    email: galke@imada.sdu.dk
+    url: "https://aisilab.github.io/mist/"

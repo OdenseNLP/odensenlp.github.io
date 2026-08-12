@@ -18,8 +18,10 @@ defaults:
     values:
       layout: post
       category: news
+      image: /assets/images/news/news-placeholder.svg
   - scope:
       path: ""
       type: members
     values:
       layout: member
+      image: /assets/images/members/member-placeholder.svg

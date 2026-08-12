@@ -1,1 +1,7 @@
-# Add dataset entries here using the template in MAINTAINER_GUIDE.md.
+- name: Schneider-Kamp Lab Dataset Collection
+  languages: "Danish, English, multilingual"
+  license: "Dataset-specific open licenses"
+  description: "An extensive collection for language-model training with objectives spanning English and Danish instruction and knowledge, mathematics, and agentic-style post-training. The underlying data mix draws from 161 datasets, almost all freely available on the Hugging Face Hub, and amounts to 70,479,308,606 tokens per epoch."
+  link: "https://huggingface.co/schneiderkamplab/datasets"
+  link_label: "View full collection"
+  status: "Active collection"

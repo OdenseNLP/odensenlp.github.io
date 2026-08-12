@@ -92,8 +92,8 @@
   authors: "From, Mogens Henrik; Nielsen, Jacob; Poech, Lukas Galke; Schneider-Kamp, Peter"
   title: "DeToNATION: Decoupled Torch Network-Aware Training on Interlinked Online Nodes"
   venue: "AAAI 2026"
-  link: "https://arxiv.org/abs/2502.06728"
-  note: "arXiv"
+  link: "https://ojs.aaai.org/index.php/AAAI/article/view/39256"
+  note: "AAAI"
   tags:
     - Efficient NLP
     - Distributed Training
@@ -145,6 +145,26 @@
   tags:
     - Danish NLP
     - Evaluation
+
+- year: 2026
+  authors: "Barmina, Gianluca; Torrielli, Federico; Harms, Sven; Nielsen, Jacob; Mächtle, Felix; Beltoft, Stine Lyngsø; Schneider-Kamp, Peter; Eisenbarth, Thomas; Poech, Lukas Galke; Lauscher, Anne"
+  title: "PsychoSafe: Eliciting Psychologically-Informed Refusals in Large Language Models"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2606.09697"
+  note: "arXiv"
+  tags:
+    - AI Safety
+    - Post-training
+
+- year: 2026
+  authors: "Barmina, Gianluca; Pirchert, Annemette Broch; Blasi Núñez, Andrea; Poech, Lukas Galke; Schneider-Kamp, Peter"
+  title: "BrainSurgery: Reproducible and Reliable Declarative Weight Manipulations for Model Editing and Upcycling"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2606.09707"
+  note: "arXiv"
+  tags:
+    - Model Editing
+    - Research Tools
 
 - year: 2024
   authors: "Nielsen, Jacob; Schneider-Kamp, Peter"

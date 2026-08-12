@@ -33,7 +33,7 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 │   └── repositories.yml
 ├── assets/
 │   ├── css/main.css               # Full visual style and responsive behavior
-│   └── images/                    # Logo + member placeholder image
+│   └── images/                    # Logos + member/news placeholder images
 ├── index.md                       # Front page with latest news + highlights
 ├── members.md
 ├── publications.md
@@ -97,3 +97,4 @@ Current placeholders are included so the site works immediately:
 
 - `assets/images/logo-odensenlp.svg` (replace with official group logo)
 - `assets/images/members/member-placeholder.svg` (replace member images via front matter paths)
+- `assets/images/news/news-placeholder.svg` (used automatically when a post has no image)
