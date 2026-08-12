@@ -2,7 +2,7 @@
   type: "Dataset collection"
   languages: "Danish, English, multilingual"
   license: "Dataset-specific open licenses"
-  description: "An extensive collection for language-model training with objectives spanning English and Danish instruction and knowledge, mathematics, and agentic-style post-training. More than 90 datasets are included for a total of approximately n GB of data."
+  description: "An extensive collection for language-model training with objectives spanning English and Danish instruction and knowledge, mathematics, and agentic-style post-training. The collection contains 86 datasets, with individual datasets reaching up to 2.5 GB of compressed data."
   link: "https://huggingface.co/schneiderkamplab/datasets"
   link_label: "View full collection"
   status: "Active collection"
