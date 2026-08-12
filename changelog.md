@@ -12,6 +12,7 @@
 - Enlarged member profile and external-link icons.
 - Added automatic placeholder images for blog posts and members when no image is specified.
 - Applied the compact card-grid design to datasets and benchmarks.
+- Added a grid-based Models section for individual models and model collections.
 - Added persistent light and dark themes with system-theme detection and an always-visible header toggle.
 - Added build-revision cache busting for the main stylesheet.
 - Updated maintainer documentation and the repository structure report for the new content and features.

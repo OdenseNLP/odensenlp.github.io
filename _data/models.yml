@@ -1,0 +1,44 @@
+- name: Taboo LoRA Adapter Collection
+  type: Model collection
+  primary: "Four instruct model families"
+  secondary: "LoRA adapters"
+  status: "80 adapters"
+  description: "A collection of 80 LoRA adapters across four instruct models, each concealing one of 20 secret words while reliably hinting at it, designed as interpretability targets with validated behavior."
+  link: "https://github.com/federicotorrielli/taboo_trainer"
+  link_label: "View collection"
+
+- name: Qwen3.5-27B-psysafe
+  type: Model
+  primary: "Qwen3.5 · 27B dense"
+  secondary: "Apache 2.0"
+  status: "PsychoSafe"
+  description: "A supervised fine-tune of Qwen3.5-27B for psychologically informed refusals, providing structured, supportive responses to high-risk requests while declining harmful guidance and directing users toward appropriate professional resources."
+  link: "https://huggingface.co/giannor/Qwen3.5-27B-psysafe"
+  link_label: "View model"
+
+- name: Qwen3.5-35B-A3B-psysafe
+  type: Model
+  primary: "Qwen3.5 · 35B-A3B MoE"
+  secondary: "See model card"
+  status: "PsychoSafe"
+  description: "A mixture-of-experts Qwen3.5 model fine-tuned for psychologically informed refusals, designed to replace blunt non-compliance with supportive, harm-preventive communication and relevant professional-resource referrals."
+  link: "https://huggingface.co/lgalke/Qwen3.5-35B-A3B-psysafe"
+  link_label: "View model"
+
+- name: Munin 1.0
+  type: Model collection
+  primary: "Danish and English"
+  secondary: "Three model families"
+  status: "DFM release"
+  description: "The first Munin release from Danish Foundation Models: Qwen3.5, Apertus, and Ministral 3 base models post-trained for Danish and English language use."
+  link: "https://huggingface.co/collections/danish-foundation-models/munin-10"
+  link_label: "View collection"
+
+- name: Danish Foundation Models
+  type: Model collection
+  primary: "Danish Foundation Models"
+  secondary: "Model-specific licenses"
+  status: "Active collection"
+  description: "The complete, growing collection of Danish Foundation Models releases on Hugging Face, spanning text-generation and multimodal models, Danish-focused continued pre-training, post-training experiments, and deployable model formats."
+  link: "https://huggingface.co/danish-foundation-models/models"
+  link_label: "View all models"

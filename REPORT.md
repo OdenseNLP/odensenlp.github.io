@@ -6,7 +6,7 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 
 - Styling and visual identity are centralized in one CSS file.
 - Shared HTML structure is handled through Jekyll layouts and includes.
-- Repeated content (members, news, benchmarks, datasets, repositories, and publications) is stored in collections/data files for easy maintenance.
+- Repeated content (members, news, models, benchmarks, datasets, repositories, and publications) is stored in collections/data files for easy maintenance.
 
 ## 2. Repository structure
 
@@ -28,6 +28,7 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 │   ├── contacts.yml
 │   ├── benchmarks.yml
 │   ├── datasets.yml
+│   ├── models.yml
 │   ├── navigation.yml
 │   ├── publications.yml
 │   └── repositories.yml
@@ -38,6 +39,7 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 ├── index.md                       # Front page with latest news + highlights
 ├── members.md
 ├── publications.md
+├── models.md
 ├── benchmarks.md
 ├── datasets.md
 ├── repositories.md
@@ -54,6 +56,7 @@ Top menu (always visible on desktop, collapses to menu button on mobile):
 - Home
 - Members
 - Publications
+- Models
 - Benchmarks
 - Datasets
 - Repositories
@@ -65,6 +68,7 @@ Page data source mapping:
 - `index.md`: Front page; latest 3 entries from `_posts/`
 - `members.md`: Cards generated from `_members/`
 - `publications.md`: Entries from `_data/publications.yml`
+- `models.md`: Entries from `_data/models.yml`
 - `benchmarks.md`: Entries from `_data/benchmarks.yml`
 - `datasets.md`: Entries from `_data/datasets.yml`
 - `repositories.md`: Entries from `_data/repositories.yml`
