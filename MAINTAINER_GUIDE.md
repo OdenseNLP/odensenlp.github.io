@@ -99,9 +99,12 @@ Edit `_data/publications.yml` and append an entry:
   venue: "Conference or Journal"
   link: "https://..."
   note: "Optional note"
+  tags:
+    - Topic A
+    - Topic B
 ```
 
-Publications are listed automatically on `/publications/`.
+Publications are listed automatically on `/publications/`. Tags are optional; every tag used in the publication data automatically becomes a filter on the page. Reuse existing tag names when possible to avoid near-duplicate filters.
 
 ## 5. Add a benchmark
 

@@ -4,6 +4,9 @@
   venue: "arXiv preprint"
   link: "https://arxiv.org/abs/2602.08818"
   note: "arXiv"
+  tags:
+    - Efficient NLP
+    - Federated Learning
 
 - year: 2026
   authors: "Beltoft, Stine Lyngso; Brach, William; Torrielli, Federico; Nielsen, Jacob; Pirchert, Annemette Brok; Tonini, Filippo; Schneider-Kamp, Peter; Poech, Lukas Galke"
@@ -11,6 +14,9 @@
   venue: "arXiv preprint"
   link: "https://arxiv.org/abs/2605.31170"
   note: "arXiv"
+  tags:
+    - AI Safety
+    - Agents
 
 - year: 2026
   authors: "Torrielli, Federico; Schneider-Kamp, Peter; Poech, Lukas Galke"
@@ -18,6 +24,9 @@
   venue: "arXiv preprint"
   link: "https://arxiv.org/abs/2605.26045"
   note: "arXiv"
+  tags:
+    - Interpretability
+    - AI Safety
 
 - year: 2026
   authors: "Brach, William; Torrielli, Federico; Beltoft, Stine Lyngso; Pirchert, Annemette Brok; Schneider-Kamp, Peter; Poech, Lukas Galke"
@@ -25,6 +34,9 @@
   venue: "arXiv preprint"
   link: "https://arxiv.org/abs/2605.07462"
   note: "arXiv"
+  tags:
+    - AI Safety
+    - Agents
 
 - year: 2026
   authors: "Barmina, Gianluca; Schneider-Kamp, Peter; Poech, Lukas Galke"
@@ -32,6 +44,10 @@
   venue: "arXiv preprint"
   link: "https://arxiv.org/abs/2606.06286"
   note: "arXiv"
+  tags:
+    - AI Safety
+    - Memorization
+    - Evaluation
 
 - year: 2025
   authors: "Barmina, Gianluca; Norman, Nathalie Carmen Hau; Schneider-Kamp, Peter; Poech, Lukas Galke"
@@ -39,6 +55,9 @@
   venue: "LREC 2026"
   link: "https://arxiv.org/abs/2512.04799"
   note: "arXiv"
+  tags:
+    - Danish NLP
+    - Evaluation
 
 - year: 2025
   authors: "Tonini, Filippo; Galke, Lukas"
@@ -46,6 +65,8 @@
   venue: "FAIEMA 2025"
   link: "https://arxiv.org/abs/2508.15510"
   note: "arXiv"
+  tags:
+    - Agents
 
 - year: 2025
   authors: "Nielsen, Jacob; Schneider-Kamp, Peter; Poech, Lukas Galke"
@@ -53,6 +74,9 @@
   venue: "Findings of ACL 2025"
   link: "https://aclanthology.org/2025.findings-acl.694/"
   note: "ACL Anthology"
+  tags:
+    - Efficient NLP
+    - Quantization
 
 - year: 2025
   authors: "Mellgren, Niklas; Schneider-Kamp, Peter; Poech, Lukas Galke"
@@ -60,6 +84,9 @@
   venue: "arXiv preprint"
   link: "https://arxiv.org/abs/2512.07407"
   note: "arXiv"
+  tags:
+    - Tool Use
+    - Reasoning
 
 - year: 2025
   authors: "From, Mogens Henrik; Nielsen, Jacob; Poech, Lukas Galke; Schneider-Kamp, Peter"
@@ -67,6 +94,9 @@
   venue: "AAAI 2026"
   link: "https://arxiv.org/abs/2502.06728"
   note: "arXiv"
+  tags:
+    - Efficient NLP
+    - Distributed Training
 
 - year: 2025
   authors: "Namazifard, Danial; Poech, Lukas Galke"
@@ -74,6 +104,9 @@
   venue: "Findings of IJCNLP-AACL 2025"
   link: "https://aclanthology.org/2025.findings-ijcnlp.45/"
   note: "ACL Anthology"
+  tags:
+    - Interpretability
+    - Multilingual NLP
 
 - year: 2025
   authors: "Brach, William; Kostal, Kristian; Poech, Lukas Galke"
@@ -81,6 +114,8 @@
   venue: "arXiv preprint"
   link: "https://arxiv.org/abs/2511.15719"
   note: "arXiv"
+  tags:
+    - Summarization
 
 - year: 2025
   authors: "Beltoft, Stine; Galke, Lukas"
@@ -88,6 +123,8 @@
   venue: "arXiv preprint"
   link: "https://arxiv.org/abs/2511.09325"
   note: "arXiv"
+  tags:
+    - AI Safety
 
 - year: 2025
   authors: "Blasi Nunez, Andrea; Galke, Lukas Paul Achatius; Schneider-Kamp, Peter"
@@ -95,6 +132,9 @@
   venue: "RANLP 2025"
   link: "https://aclanthology.org/2025.ranlp-1.21/"
   note: "ACL Anthology"
+  tags:
+    - Data
+    - Multimodal NLP
 
 - year: 2026
   authors: "Nielsen, Jacob; Beltoft, Stine L.; Schneider-Kamp, Peter; Poech, Lukas Galke"
@@ -102,6 +142,9 @@
   venue: "arXiv preprint"
   link: "https://arxiv.org/pdf/2601.19930"
   note: "arXiv"
+  tags:
+    - Danish NLP
+    - Evaluation
 
 - year: 2024
   authors: "Nielsen, Jacob; Schneider-Kamp, Peter"
@@ -109,6 +152,9 @@
   venue: "DeLTA 2024"
   link: "https://link.springer.com/chapter/10.1007/978-3-031-66705-3_20"
   note: "Springer"
+  tags:
+    - Efficient NLP
+    - Quantization
 
 - year: 2024
   authors: "Nielsen, Jacob; Poech, Lukas Galke; Schneider-Kamp, Peter"
@@ -116,3 +162,6 @@
   venue: "arXiv preprint"
   link: "https://arxiv.org/abs/2411.05882"
   note: "arXiv"
+  tags:
+    - Efficient NLP
+    - Quantization
