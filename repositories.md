@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Repositories
-lead: Open-source code maintained by OdenseNLP. Edit entries in `_data/repositories.yml`.
+lead: Open-source code maintained by OdenseNLP.
 permalink: /repositories/
 ---
 

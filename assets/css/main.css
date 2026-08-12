@@ -194,6 +194,7 @@ p {
 
 .header-controls {
   order: 3;
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -215,10 +216,6 @@ p {
   color: var(--muted);
   background: var(--surface);
   cursor: pointer;
-}
-
-.theme-toggle[hidden] {
-  display: none;
 }
 
 .theme-toggle:hover {

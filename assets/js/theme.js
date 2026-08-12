@@ -24,7 +24,6 @@
     themeColor?.setAttribute("content", isDark ? "#101719" : "#f4f7f6");
   };
 
-  toggle.hidden = false;
   updateControls();
 
   toggle.addEventListener("click", () => {
