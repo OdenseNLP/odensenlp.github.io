@@ -1,5 +1,4 @@
 ---
-
 title: OdenseNLP is part of the Danish Foundation Models initiative.
 image: /assets/images/news/dfm.png
 image_alt: "OdenseNLP DFM image"
