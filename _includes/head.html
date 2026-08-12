@@ -9,10 +9,24 @@
     {% endif %}
   </title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}" />
+  <meta name="theme-color" content="#f4f7f6" data-theme-color />
   <link rel="icon" type="image/png" href="{{ '/assets/images/onlp_logo_transparent.png' | relative_url }}" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    (() => {
+      let savedTheme = null;
+      try { savedTheme = localStorage.getItem("odensenlp-theme"); } catch (error) {}
+      const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const theme = savedTheme === "dark" || savedTheme === "light"
+        ? savedTheme
+        : (prefersDark ? "dark" : "light");
+      document.documentElement.dataset.theme = theme;
+      document.querySelector("[data-theme-color]").content = theme === "dark" ? "#101719" : "#f4f7f6";
+    })();
+  </script>
   {% assign asset_version = site.github.build_revision | default: site.time %}
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ asset_version | url_encode }}" />
+  <script defer src="{{ '/assets/js/theme.js' | relative_url }}?v={{ asset_version | url_encode }}"></script>
 </head>

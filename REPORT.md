@@ -33,6 +33,7 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 │   └── repositories.yml
 ├── assets/
 │   ├── css/main.css               # Full visual style and responsive behavior
+│   ├── js/theme.js                # Persistent light/dark theme toggle
 │   └── images/                    # Logos + member/news placeholder images
 ├── index.md                       # Front page with latest news + highlights
 ├── members.md
@@ -79,6 +80,7 @@ Design goals implemented:
 - Subtle Denmark cue through restrained red accent
 - Clear typography hierarchy with modern readable fonts
 - Fully responsive behavior for desktop/mobile
+- Light and dark color themes with a persistent header toggle and system-theme fallback
 
 All core colors, spacing, and key tokens are defined in CSS variables in `assets/css/main.css`.
 

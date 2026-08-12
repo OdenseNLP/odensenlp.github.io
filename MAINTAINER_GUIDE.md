@@ -130,6 +130,7 @@ Edit `_data/datasets.yml` and append:
 
 ```yaml
 - name: Dataset name
+  type: Dataset
   languages: "Danish, English"
   license: "CC BY 4.0"
   description: "One-line summary"

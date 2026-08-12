@@ -1,7 +1,8 @@
-- name: Schneider-Kamp Lab Dataset Collection
+- name: Post-Training Dataset Collection
+  type: "Dataset collection"
   languages: "Danish, English, multilingual"
   license: "Dataset-specific open licenses"
-  description: "An extensive collection for language-model training with objectives spanning English and Danish instruction and knowledge, mathematics, and agentic-style post-training. The underlying data mix draws from 161 datasets, almost all freely available on the Hugging Face Hub, and amounts to 70,479,308,606 tokens per epoch."
+  description: "An extensive collection for language-model training with objectives spanning English and Danish instruction and knowledge, mathematics, and agentic-style post-training. More than 90 datasets are included for a total of approximately n GB of data."
   link: "https://huggingface.co/schneiderkamplab/datasets"
   link_label: "View full collection"
   status: "Active collection"
