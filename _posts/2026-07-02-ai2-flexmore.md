@@ -1,5 +1,5 @@
 ---
-title: FlexMoRE: Efficient modular language models from OdenseNLP
+title: FlexMoRE - Efficient modular language models
 image: /assets/images/news/news-placeholder.svg
 image_alt: "OdenseNLP FlexMoRE image"
 ---
