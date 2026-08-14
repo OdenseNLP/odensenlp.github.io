@@ -166,6 +166,37 @@
     - Model Editing
     - Research Tools
 
+- year: 2026
+  authors: "Lautrup, Anton Danholt; Rajabinasab, Muhammad; Hyrup, Tobias; Zimek, Arthur; Schneider-Kamp, Peter"
+  title: "Disjoint Generation of Synthetic Data"
+  venue: "Transactions on Machine Learning Research"
+  link: "https://openreview.net/forum?id=LSzXkAWBKI"
+  note: "TMLR"
+  tags:
+    - Synthetic Data
+    - Privacy
+
+- year: 2025
+  authors: "Lautrup, Anton Danholt"
+  title: "Generation and Evaluation of Realistic Tabular Synthetic Data"
+  venue: "Ph.D. dissertation, University of Southern Denmark"
+  link: "https://portal.findresearcher.sdu.dk/en/publications/generation-and-evaluation-of-realistic-tabular-synthetic-data/"
+  note: "SDU Research Portal"
+  tags:
+    - Synthetic Data
+    - Evaluation
+
+- year: 2025
+  authors: "Lautrup, Anton D.; Hyrup, Tobias; Zimek, Arthur; Schneider-Kamp, Peter"
+  title: "Syntheval: a framework for detailed utility and privacy evaluation of tabular synthetic data"
+  venue: "Data Mining and Knowledge Discovery"
+  link: "https://link.springer.com/article/10.1007/s10618-024-01081-4"
+  note: "Springer"
+  tags:
+    - Synthetic Data
+    - Evaluation
+    - Privacy
+
 - year: 2024
   authors: "Nielsen, Jacob; Schneider-Kamp, Peter"
   title: "BitNet B1.58 Reloaded: State-of-the-Art Performance Also on Smaller Networks"
