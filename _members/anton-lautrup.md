@@ -7,7 +7,6 @@ github: https://github.com/notna07
 linkedin: https://dk.linkedin.com/in/a-lautrup
 scholar: https://scholar.google.dk/citations?user=JbJfhegAAAAJ&hl=da
 image: /assets/images/members/anton.png
-order: 11
 research_areas:
   - Generative Models
   - Mechanistic Interpretability

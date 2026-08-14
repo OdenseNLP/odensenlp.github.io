@@ -7,7 +7,6 @@ github: https://github.com/AnnemetteBP
 linkedin: https://www.linkedin.com/in/annemette-brok-pirchert-7114071a2/
 scholar: https://scholar.google.com/citations?user=0zNeQjUAAAAJ
 image: /assets/images/members/annemette.jpg
-order: 8
 research_areas:
  - Multilingual Language Models
  - Efficient and Flexible Language Models

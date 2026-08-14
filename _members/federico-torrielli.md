@@ -7,7 +7,6 @@ github: https://github.com/federicotorrielli
 linkedin: https://www.linkedin.com/in/federico-torrielli/
 scholar: https://scholar.google.com/citations?user=E9s2cKAAAAAJ
 image: /assets/images/members/federico.png
-order: 9
 research_areas:
   - AI Safety
   - Mechanistic Interpretability

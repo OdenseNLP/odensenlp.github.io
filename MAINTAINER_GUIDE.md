@@ -67,7 +67,6 @@ github: https://github.com/username
 linkedin: https://www.linkedin.com/in/username
 scholar: https://scholar.google.com/citations?user=...
 image: /assets/images/members/first-last.jpg
-order: 5
 research_areas:
   - Topic A
   - Topic B
@@ -86,7 +85,8 @@ The `image` field is optional. If it is omitted, `/assets/images/members/member-
 
 Tips:
 
-- `order` controls sorting on the Members page.
+- Add the member's exact `name` to `_data/people_order.yml` to choose their position on the People page.
+- Members omitted from `_data/people_order.yml` are shown after the explicitly ordered members, sorted alphabetically.
 - Each member gets an automatic profile page at `/members/<filename>/`.
 - Member cards/profile pages show icons for mail, GitHub, LinkedIn, and Scholar; add/remove those fields to control active links.
 
