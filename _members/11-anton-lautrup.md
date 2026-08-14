@@ -1,15 +1,17 @@
 ---
-name: Anton Danholt Lautrup
+name: Anton D. Lautrup
 role: PostDoc
 affiliation: University of Southern Denmark (SDU)
 email: lautrup@imada.sdu.dk
 github: https://github.com/notna07
 linkedin: https://dk.linkedin.com/in/a-lautrup
-scholar: https://scholar.google.com/citations?user=TzHroWcAAAAJ&hl=en
+scholar: https://scholar.google.dk/citations?user=JbJfhegAAAAJ&hl=da
 image: /assets/images/members/anton.png
 order: 11
-# research_areas:
-#   - Language Modelling
-#   - Efficient Distributed Trainings
-#   - Interpretability
+research_areas:
+  - Generative Models
+  - Mechanistic Interpretability
+  - Machine Learning
 ---
+
+I work with generative models and machine learning, usually trying to simplify things, improve evaluation etc.
