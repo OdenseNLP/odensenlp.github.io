@@ -10,4 +10,10 @@ image: /assets/images/members/peter.png
 research_areas:
   - Language Modeling
   - Efficient ML
+  - Efficient Distributed Trainings
+  - Extreme Quantization
+  - Efficient and Dederated Deep Neural Network Architectures
 ---
+  
+  
+  

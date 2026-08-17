@@ -12,4 +12,4 @@ research_areas:
   - Digital humanities
 ---
 
-HAnna Schneider-Kamp is an Associate Professor of Health and Consumption. Her main research interest is the empirical study and theorization of sociocultural determinants of health through a critical interdisciplinary perspective that is rooted in medical sociology.
+Anna Schneider-Kamp is an Associate Professor of Health and Consumption. Her main research interest is the empirical study and theorization of sociocultural determinants of health through a critical interdisciplinary perspective that is rooted in medical sociology.
