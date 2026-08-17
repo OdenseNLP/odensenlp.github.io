@@ -49,6 +49,47 @@
     - Memorization
     - Evaluation
 
+- year: 2026
+  authors: "Beltoft, Stine Lyngsø; Nielsen, Jacob; Askegaard, Søren; Schneider-Kamp, Anna"
+  title: "Drawing out What They Struggle to say: AI-Augmented Analysis of Projective Techniques in Qualitative Health Research"
+  venue: "International Journal of Qualitative Methods"
+  link: "https://journals.sagepub.com/doi/full/10.1177/16094069261417903"
+  note: "SAGE"
+  tags:
+    - Qualitative AI
+    - Multimodal NLP
+
+- year: 2026
+  authors: "Brach, William; Bedej, Tomas; Nielsen, Jacob; Pichna, Jacob; Bedej, Juraj; Saarensilta, Eemeli; Dupouy, Julie; Barmina, Gianluca; Blasi Núñez, Andrea; Schneider-Kamp, Peter; Košťál, Kristian; Ries, Michal; Galke Poech, Lukas"
+  title: "SommBench: Assessing Sommelier Expertise of Language Models"
+  venue: "LREC 2026"
+  link: "https://aclanthology.org/2026.lrec-1.33/"
+  note: "ACL Anthology"
+  tags:
+    - Evaluation
+    - Reasoning
+
+- year: 2026
+  authors: "Schneider-Kamp, Peter; Nielsen, Jacob; Barmina, Gianluca; Enevoldsen, Kenneth; Galke Poech, Lukas"
+  title: "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data"
+  venue: "Technical report"
+  link: "https://arxiv.org/abs/2608.13517"
+  note: "arXiv"
+  tags:
+    - Danish NLP
+    - Efficient NLP
+    - Reasoning
+
+- year: 2026
+  authors: "Enevoldsen, Kenneth; Jensen, Kristian Nørgaard; Kostkan, Jan; Szabó, Balázs; Kardos, Márton; Vad, Kirsten; Heinsen, Johan; Blasi Núñez, Andrea; Barmina, Gianluca; Nielsen, Jacob; Larsen, Rasmus; van der Goot, Rob; Vahlstrup, Peter; Dalum, Per Møldrup; Elliott, Desmond; Galke Poech, Lukas; Schneider-Kamp, Peter; Nielbo, Kristoffer"
+  title: "Dynaword: From One-shot to Continuously Developed Datasets"
+  venue: "LREC 2026"
+  link: "https://aclanthology.org/2026.lrec-1.301/"
+  note: "ACL Anthology"
+  tags:
+    - Danish NLP
+    - Data
+
 - year: 2025
   authors: "Barmina, Gianluca; Norman, Nathalie Carmen Hau; Schneider-Kamp, Peter; Poech, Lukas Galke"
   title: "DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors"

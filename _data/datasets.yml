@@ -6,3 +6,12 @@
   link: "https://huggingface.co/schneiderkamplab/datasets"
   link_label: "View full collection"
   status: "Active collection"
+
+- name: Danish Dynaword
+  type: "Continuously developed dataset collection"
+  languages: "Danish"
+  license: "CC0 metadata; source-specific open licenses"
+  description: "A continually expanded corpus of openly licensed Danish free-form text from diverse domains. Version 1.2.20 contains 7.25 million documents and 6.99 billion Llama 3 tokens across 50 dataset subsets."
+  link: "https://huggingface.co/datasets/danish-foundation-models/danish-dynaword"
+  link_label: "View dataset"
+  status: "Active"

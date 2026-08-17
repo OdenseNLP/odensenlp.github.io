@@ -52,3 +52,13 @@
   description: "Benchmark and tooling for evaluating LLM understanding of Danish culture using closed question-answer pairs grounded in the Danish Culture Canon."
   stack: "Python"
   link: "https://github.com/schneiderkamplab/SDU-Daisy"
+
+- name: HRM-Text
+  description: "Pretraining framework behind DFM Mimir for efficient 0.6B–1B text models, combining hierarchical recurrence, PrefixLM packing, distributed training, evaluation, and checkpoint conversion tooling."
+  stack: "Python, PyTorch, Distributed Training"
+  link: "https://github.com/schneiderkamplab/HRM-Text"
+
+- name: QualiTea
+  description: "Offline-first field-notes app for qualitative research, supporting photo, video, audio, and text capture with project organization, location mapping, exports, and self-hosted Nextcloud backup."
+  stack: "React Native, Expo, SQLite"
+  link: "https://github.com/schneiderkamplab/qualitea-app"

@@ -11,3 +11,10 @@
   description: "Danish-culture benchmark based on the Danish Culture Canon, with 746 closed question-answer pairs for evaluating LLM cultural understanding."
   link: "https://huggingface.co/datasets/schneiderkamplab/SDU-Daisy"
   status: "Active"
+
+- name: GEC DaLA
+  languages: "Danish"
+  license: "Not specified"
+  description: "Grammatical error correction version of DaLA, pairing original and corrupted Danish sentences with corruption types and affected-token annotations. It provides train, validation, and test splits containing 1,664 examples in total."
+  link: "https://huggingface.co/datasets/danish-foundation-models/dala_gen_v3"
+  status: "Active"
