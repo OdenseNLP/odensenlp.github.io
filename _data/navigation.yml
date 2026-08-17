@@ -6,10 +6,8 @@
   url: /publications/
 - title: Models
   url: /models/
-- title: Benchmarks
-  url: /benchmarks/
-- title: Datasets
-  url: /datasets/
+- title: Data
+  url: /data/
 - title: Repositories
   url: /repositories/
 - title: Blog posts/news

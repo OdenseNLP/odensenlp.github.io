@@ -40,8 +40,9 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 ├── members.md
 ├── publications.md
 ├── models.md
-├── benchmarks.md
-├── datasets.md
+├── data.md
+├── benchmarks.md                  # Compatibility link to /data/#benchmarks
+├── datasets.md                    # Compatibility link to /data/#datasets
 ├── repositories.md
 ├── blog.md
 ├── contacts.md
@@ -57,8 +58,7 @@ Top menu (always visible on desktop, collapses to menu button on mobile):
 - Members
 - Publications
 - Models
-- Benchmarks
-- Datasets
+- Data
 - Repositories
 - Blog posts/news
 - Contacts
@@ -69,8 +69,7 @@ Page data source mapping:
 - `members.md`: Cards generated from `_members/`
 - `publications.md`: Entries from `_data/publications.yml`
 - `models.md`: Entries from `_data/models.yml`
-- `benchmarks.md`: Entries from `_data/benchmarks.yml`
-- `datasets.md`: Entries from `_data/datasets.yml`
+- `data.md`: Separate Datasets and Benchmarks sections from `_data/datasets.yml` and `_data/benchmarks.yml`
 - `repositories.md`: Entries from `_data/repositories.yml`
 - `blog.md`: Full chronological list from `_posts/`
 - `contacts.md`: Uses `_data/contacts.yml`

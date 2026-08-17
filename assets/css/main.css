@@ -390,6 +390,16 @@ html[data-theme="dark"] .theme-icon-sun {
   gap: 1rem;
 }
 
+.front-data-group + .front-data-group {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
+.front-data-group > h3 {
+  margin: 0 0 1rem;
+}
+
 .summary-card {
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -852,6 +862,14 @@ html[data-theme="dark"] .theme-icon-sun {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 0.9rem;
   margin-top: 1rem;
+}
+
+.data-section + .data-section {
+  margin-top: 3.5rem;
+}
+
+.data-section > h2 {
+  margin-bottom: 1.25rem;
 }
 
 .catalog-card {

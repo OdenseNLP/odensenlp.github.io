@@ -139,7 +139,7 @@ Edit `_data/benchmarks.yml` and append:
   status: "Active"
 ```
 
-Benchmarks are listed automatically on `/benchmarks/` and summarized on the front page.
+Benchmarks are listed automatically in the Benchmarks section of `/data/` and summarized under Data on the front page.
 
 ## 7. Add a dataset
 
@@ -155,7 +155,7 @@ Edit `_data/datasets.yml` and append:
   status: "Active"
 ```
 
-Datasets are listed automatically on `/datasets/` and summarized on the front page once the data file contains at least one entry.
+Datasets are listed automatically in the Datasets section of `/data/` and summarized under Data on the front page.
 
 ## 8. Add a repository
 
