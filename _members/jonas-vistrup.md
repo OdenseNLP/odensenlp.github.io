@@ -1,6 +1,6 @@
 ---
 name: Jonas Vistrup
-role: PhD Fellow
+role: Former PhD Fellow
 affiliation: University of Southern Denmark (SDU)
 email: vistrup@imada.sdu.dk
 github: https://github.com/JonasVistrup
