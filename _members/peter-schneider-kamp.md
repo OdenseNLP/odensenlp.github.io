@@ -14,6 +14,8 @@ research_areas:
   - Extreme Quantization
   - Efficient and Dederated Deep Neural Network Architectures
 ---
+
+I like to build efficient deep learning models. Most importantly I like to have fun :)
   
   
   
