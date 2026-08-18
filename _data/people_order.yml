@@ -1,15 +1,31 @@
-# Members listed here appear first, in this exact order.
-# Any member not listed is appended automatically in alphabetical order.
-- Peter Schneider-Kamp
-- Lukas Galke Poech
-- Gianluca Barmina
-- Jacob Nielsen
-- Filippo Tonini
-- Stine Lyngsø Beltoft
-- Andrea Blasi Núñez
-- Annemette Brok Pirchert
-- Federico Torrielli
-- Jonas Vistrup
-- Anton D. Lautrup
-- Danial Namazifard
-- William Brach
+# Sections appear in this order. Members appear in the order listed within them.
+# Move a name between lists to change that person's section.
+sections:
+  - title: Professors
+    members:
+      - Peter Schneider-Kamp
+      - Lukas Galke Poech
+
+  - title: PhDs
+    members:
+      - Gianluca Barmina
+      - Jacob Nielsen
+      - Filippo Tonini
+      - Stine Lyngsø Beltoft
+      - Andrea Blasi Núñez
+      - Annemette Brok Pirchert
+      - Jonas Vistrup
+      - Danial Namazifard
+
+  - title: Postdocs
+    members:
+      - Anton D. Lautrup
+
+  - title: External collaborators
+    members:
+      - Anna Schneider-Kamp
+      - Federico Torrielli
+      - William Brach
+
+# Profiles omitted above are appended alphabetically in this final section.
+fallback_section: Other members

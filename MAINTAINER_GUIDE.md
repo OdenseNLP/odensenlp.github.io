@@ -85,8 +85,10 @@ The `image` field is optional. If it is omitted, `/assets/images/members/member-
 
 Tips:
 
-- Add the member's exact `name` to `_data/people_order.yml` to choose their position on the People page.
-- Members omitted from `_data/people_order.yml` are shown after the explicitly ordered members, sorted alphabetically.
+- `_data/people_order.yml` defines the People page sections and their display order.
+- Add the member's exact `name` under a section's `members` list to control both their section and position.
+- Move a name between section lists to reassign that person without editing their profile.
+- Members omitted from all section lists are shown alphabetically in the final fallback section configured by `fallback_section`.
 - Each member gets an automatic profile page at `/members/<filename>/`.
 - Member cards/profile pages show icons for mail, GitHub, LinkedIn, and Scholar; add/remove those fields to control active links.
 

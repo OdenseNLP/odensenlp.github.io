@@ -550,6 +550,14 @@ html[data-theme="dark"] .theme-icon-sun {
   margin-top: 1.3rem;
 }
 
+.member-section + .member-section {
+  margin-top: 3.5rem;
+}
+
+.member-section > h2 {
+  margin-bottom: 0;
+}
+
 .member-card {
   background: var(--surface);
   border-radius: 10px;
