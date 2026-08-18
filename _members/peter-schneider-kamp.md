@@ -15,7 +15,7 @@ research_areas:
   - Efficient and Dederated Deep Neural Network Architectures
 ---
 
-I like to build efficient deep learning models. Most importantly I like to have fun :)
+I like to build efficient deep learning models and, most importantly, I like to have fun :)
   
   
   
