@@ -25,6 +25,15 @@
   link: "https://huggingface.co/lgalke/Qwen3.5-35B-A3B-psysafe"
   link_label: "View model"
 
+- name: DFM Mimir
+  type: Model
+  primary: "Danish and English · 1.8B parameters"
+  secondary: "Mimir Research License v1.0"
+  status: "DFM release"
+  description: "An instruction-tuned Danish-English foundation model based on HRM-Text, trained exclusively on permissible post-training data and designed for strong Danish, English, mathematics, code, and reasoning performance at compact scale."
+  link: "https://huggingface.co/danish-foundation-models/DFM-Mimir"
+  link_label: "View model"
+
 - name: Munin 1.0
   type: Model collection
   primary: "Danish and English"
