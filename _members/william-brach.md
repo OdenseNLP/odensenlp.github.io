@@ -1,6 +1,6 @@
 ---
 name: William Brach
-role: Latent Collaborator
+role: Guest Researcher, PhD Fellow
 affiliation: University of Southern Denmark (SDU)
 email: william@williambrach.com
 github: https://github.com/williambrach
