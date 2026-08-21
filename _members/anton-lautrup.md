@@ -1,6 +1,6 @@
 ---
 name: Anton D. Lautrup
-role: PostDoc
+role: Postdoc
 affiliation: University of Southern Denmark (SDU)
 email: lautrup@imada.sdu.dk
 github: https://github.com/notna07
