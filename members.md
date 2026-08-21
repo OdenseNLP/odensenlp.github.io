@@ -1,7 +1,6 @@
 ---
 layout: page
 title: People
-lead: People in the OdenseNLP research group.
 permalink: /members/
 wide: true
 ---

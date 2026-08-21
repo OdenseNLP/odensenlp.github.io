@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Data
-lead: Open datasets and evaluation benchmarks released or maintained by OdenseNLP.
 permalink: /data/
 container: wide
 wide: true
@@ -14,15 +13,7 @@ wide: true
       {% for dataset in site.data.datasets %}
         <article class="catalog-card">
           <a class="catalog-card-link" href="{{ dataset.link }}" target="_blank" rel="noopener">
-            <div class="catalog-card-data">
-              <div class="catalog-card-data-header">
-                <span class="catalog-primary">{{ dataset.languages }}</span>
-                <span class="catalog-status">{{ dataset.status }}</span>
-              </div>
-              <p class="catalog-license">{{ dataset.license }}</p>
-            </div>
             <div class="catalog-card-body">
-              <p class="catalog-kind">{{ dataset.type | default: "Dataset" }}</p>
               <h3>{{ dataset.name }}</h3>
               <p class="catalog-description">{{ dataset.description }}</p>
               <span class="catalog-read">{{ dataset.link_label | default: "View dataset" }} <span aria-hidden="true">↗</span></span>
@@ -43,15 +34,7 @@ wide: true
       {% for benchmark in site.data.benchmarks %}
         <article class="catalog-card">
           <a class="catalog-card-link" href="{{ benchmark.link }}" target="_blank" rel="noopener">
-            <div class="catalog-card-data">
-              <div class="catalog-card-data-header">
-                <span class="catalog-primary">{{ benchmark.languages }}</span>
-                <span class="catalog-status">{{ benchmark.status }}</span>
-              </div>
-              <p class="catalog-license">{{ benchmark.license }}</p>
-            </div>
             <div class="catalog-card-body">
-              <p class="catalog-kind">Benchmark</p>
               <h3>{{ benchmark.name }}</h3>
               <p class="catalog-description">{{ benchmark.description }}</p>
               <span class="catalog-read">View benchmark <span aria-hidden="true">↗</span></span>

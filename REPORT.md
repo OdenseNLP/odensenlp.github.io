@@ -62,7 +62,7 @@ Top menu (always visible on desktop, collapses to menu button on mobile):
 - Data
 - Projects
 - Repositories
-- Blog posts/news
+- News
 - Contacts
 
 Page data source mapping:

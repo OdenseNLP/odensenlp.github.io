@@ -926,8 +926,7 @@ html[data-theme="dark"] .theme-icon-sun {
 }
 
 .catalog-card-link {
-  display: grid;
-  grid-template-rows: 94px 1fr;
+  display: block;
   height: 100%;
   color: inherit;
   text-decoration: none;
@@ -938,63 +937,11 @@ html[data-theme="dark"] .theme-icon-sun {
   outline-offset: -3px;
 }
 
-.catalog-card-data {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  padding: 0.75rem 0.8rem;
-  border-bottom: 1px solid var(--line);
-  background:
-    radial-gradient(circle at 100% 0%, var(--accent-glow), transparent 45%),
-    var(--surface-muted);
-}
-
-.catalog-card-data-header {
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  gap: 0.7rem;
-}
-
-.catalog-primary {
-  color: var(--accent);
-  font-size: 0.8rem;
-  font-weight: 800;
-}
-
-.catalog-status {
-  flex: 0 0 auto;
-  color: var(--muted);
-  font-size: 0.66rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.catalog-license {
-  overflow: hidden;
-  margin: 0.25rem 0 0;
-  color: var(--text);
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 .catalog-card-body {
   display: flex;
   flex-direction: column;
   min-height: 190px;
   padding: 0.8rem;
-}
-
-.catalog-kind {
-  margin-bottom: 0.35rem;
-  color: var(--danish-red);
-  font-size: 0.66rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 .catalog-card h3 {
@@ -1027,11 +974,6 @@ html[data-theme="dark"] .theme-icon-sun {
 
 .page-header {
   margin-bottom: 1.4rem;
-}
-
-.lead {
-  color: var(--muted);
-  max-width: 68ch;
 }
 
 .prose {

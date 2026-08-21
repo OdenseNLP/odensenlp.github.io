@@ -11,7 +11,7 @@ Common tasks:
 - Add publications, models, benchmarks, datasets, or repositories: edit files in `_data/`
 - Update static page text: edit `index.md` or one of the page files (`members.md`, `contacts.md`, etc.)
 
-## 2. Add a new blog post/news item
+## 2. Add a news item
 
 Create a new file in `_posts/` named:
 

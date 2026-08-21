@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contacts
-lead: Get in touch with OdenseNLP group at SDU.
 permalink: /contacts/
 ---
 

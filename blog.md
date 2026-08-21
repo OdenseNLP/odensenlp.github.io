@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Blog posts/news
-lead: News, events, milestones, and updates from OdenseNLP.
+title: News
 permalink: /blog/
 ---
 
-<section class="post-list" aria-label="News and blog posts">
+<section class="post-list" aria-label="News">
   {% for post in site.posts %}
     <article class="resource-card">
       {% if post.image %}

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Publications
-lead: Browse selected OdenseNLP publications by research topic.
 permalink: /publications/
 container: wide
 wide: true

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Projects
-lead: Research initiatives involving OdenseNLP.
 permalink: /projects/
 ---
 
