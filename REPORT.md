@@ -43,6 +43,7 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 ├── data.md
 ├── benchmarks.md                  # Compatibility link to /data/#benchmarks
 ├── datasets.md                    # Compatibility link to /data/#datasets
+├── projects.md
 ├── repositories.md
 ├── blog.md
 ├── contacts.md
@@ -59,6 +60,7 @@ Top menu (always visible on desktop, collapses to menu button on mobile):
 - Publications
 - Models
 - Data
+- Projects
 - Repositories
 - Blog posts/news
 - Contacts
@@ -70,6 +72,7 @@ Page data source mapping:
 - `publications.md`: Entries from `_data/publications.yml`
 - `models.md`: Entries from `_data/models.yml`
 - `data.md`: Separate Datasets and Benchmarks sections from `_data/datasets.yml` and `_data/benchmarks.yml`
+- `projects.md`: Text-only project rows from `_data/projects.yml`
 - `repositories.md`: Entries from `_data/repositories.yml`
 - `blog.md`: Full chronological list from `_posts/`
 - `contacts.md`: Uses `_data/contacts.yml`

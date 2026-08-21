@@ -8,6 +8,8 @@
   url: /models/
 - title: Data
   url: /data/
+- title: Projects
+  url: /projects/
 - title: Repositories
   url: /repositories/
 - title: Blog posts/news

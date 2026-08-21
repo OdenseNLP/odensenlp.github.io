@@ -1,0 +1,9 @@
+- short_name: DFM
+  name: Danish Foundation Models
+  description: "DFM is a national Danish initiative developing, evaluating, and adapting open language AI for Danish society. DFM focuses on the full AI stack, from training data and model development to evaluation benchmarks and real-world adaptation, with all models, datasets, and research made openly available."
+  link: "https://www.foundationmodels.dk/index.html"
+
+- short_name: MIST
+  name: Scalable Mechanistic Interpretability for Safe and Trustworthy LLM Agents
+  description: "MIST develops scalable methods for mechanistic interpretability and studies the causal mechanisms behind key agent capabilities such as instruction following, tool use, planning, reasoning, and multi-agent communication. The project also investigates how safety interventions propagate through multi-agent systems, with the long-term goal of supporting robust evaluation and safety certification for LLM agents."
+  link: "https://aisilab.github.io/mist/"

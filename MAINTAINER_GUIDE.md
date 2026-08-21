@@ -159,7 +159,20 @@ Edit `_data/datasets.yml` and append:
 
 Datasets are listed automatically in the Datasets section of `/data/` and summarized under Data on the front page.
 
-## 8. Add a repository
+## 8. Add a project
+
+Edit `_data/projects.yml` and append:
+
+```yaml
+- short_name: PROJECT
+  name: Full project name
+  description: "Brief project description"
+  link: "https://project.example/"
+```
+
+Projects are listed automatically on `/projects/`. Each project row links to its external website in a new tab.
+
+## 9. Add a repository
 
 Edit `_data/repositories.yml` and append:
 
@@ -172,7 +185,7 @@ Edit `_data/repositories.yml` and append:
 
 Repositories are listed automatically on `/repositories/`.
 
-## 9. Update contact details
+## 10. Update contact details
 
 Edit `_data/contacts.yml`:
 
@@ -184,7 +197,7 @@ Edit `_data/contacts.yml`:
 
 Changes appear automatically on `/contacts/` and footer email text.
 
-## 10. Update menu items
+## 11. Update menu items
 
 Edit `_data/navigation.yml`.
 
@@ -197,13 +210,13 @@ Each item needs:
 
 If adding a new page, also create corresponding `*.md` file with front matter.
 
-## 11. Replace logo and member images
+## 12. Replace logo and member images
 
 - Replace `assets/images/logo-odensenlp.svg` (menu logo) and `assets/images/logo-odensenlp-title.svg` (front-page centered logo/title) with official assets.
 - To change the image behind the front-page logo block, edit `_data/frontpage.yml` (`hero_image`) and point it to your image path.
 - Add member photos in `assets/images/members/` and update each member file `image:` value.
 
-## 12. Local preview (optional)
+## 13. Local preview (optional)
 
 If Ruby/Jekyll is installed locally:
 
