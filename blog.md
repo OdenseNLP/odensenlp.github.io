@@ -1,23 +1,20 @@
 ---
-layout: page
+layout: null
 title: News
 permalink: /blog/
+sitemap: false
 ---
 
-<section class="post-list" aria-label="News">
-  {% for post in site.posts %}
-    <article class="resource-card">
-      {% if post.image %}
-        {% assign list_image = post.image %}
-        {% if list_image contains '://' %}
-          <img class="post-list-image" src="{{ list_image }}" alt="{{ post.image_alt | default: post.title }}" />
-        {% else %}
-          <img class="post-list-image" src="{{ list_image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" />
-        {% endif %}
-      {% endif %}
-      <p class="meta">{{ post.date | date: "%d %B %Y" }}</p>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt | strip_html | truncate: 210 }}</p>
-    </article>
-  {% endfor %}
-</section>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url={{ '/news/' | relative_url }}" />
+    <link rel="canonical" href="{{ '/news/' | absolute_url }}" />
+    <title>News | {{ site.title }}</title>
+  </head>
+  <body>
+    <p>News has moved to <a href="{{ '/news/' | relative_url }}">{{ '/news/' | relative_url }}</a>.</p>
+    <script>window.location.replace("{{ '/news/' | relative_url }}");</script>
+  </body>
+</html>

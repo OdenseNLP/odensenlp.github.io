@@ -29,7 +29,7 @@ permalink: /
     <div class="container">
       <div class="front-block-header">
         <h2>Latest news</h2>
-        <a href="{{ '/blog/' | relative_url }}">See all posts</a>
+        <a href="{{ '/news/' | relative_url }}">See all posts</a>
       </div>
 
       {% assign latest_posts = site.posts | slice: 0, 4 %}

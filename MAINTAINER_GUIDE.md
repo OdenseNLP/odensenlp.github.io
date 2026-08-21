@@ -40,7 +40,7 @@ Short update text here.
 
 Notes:
 
-- Posts are shown automatically on `/blog/`.
+- Posts are shown automatically on `/news/`.
 - The latest 3 posts are shown on the front page.
 - Newest date appears first.
 - `image`, `image_alt`, and `image_caption` are optional. If `image` is omitted, `/assets/images/news/news-placeholder.svg` is used automatically. Set `image` to show a specific image on the post page and in news lists.

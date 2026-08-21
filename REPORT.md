@@ -45,7 +45,8 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 ├── datasets.md                    # Compatibility link to /data/#datasets
 ├── projects.md
 ├── repositories.md
-├── blog.md
+├── news.md
+├── blog.md                       # Compatibility redirect to /news/
 ├── contacts.md
 ├── MAINTAINER_GUIDE.md
 └── REPORT.md
@@ -74,7 +75,7 @@ Page data source mapping:
 - `data.md`: Separate Datasets and Benchmarks sections from `_data/datasets.yml` and `_data/benchmarks.yml`
 - `projects.md`: Text-only project rows from `_data/projects.yml`
 - `repositories.md`: Entries from `_data/repositories.yml`
-- `blog.md`: Full chronological list from `_posts/`
+- `news.md`: Full chronological list from `_posts/`
 - `contacts.md`: Uses `_data/contacts.yml`
 
 ## 4. Design system
