@@ -10,6 +10,12 @@ wide: true
   {% for repo in site.data.repositories %}
     <article class="catalog-card">
       <a class="catalog-card-link" href="{{ repo.link }}" target="_blank" rel="noopener">
+        <div class="catalog-card-data">
+          <div class="catalog-card-data-header">
+            <span class="catalog-primary">{{ repo.stack }}</span>
+            <span class="catalog-status">Open source</span>
+          </div>
+        </div>
         <div class="catalog-card-body">
           <h3>{{ repo.name }}</h3>
           <p class="catalog-description">{{ repo.description }}</p>

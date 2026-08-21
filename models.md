@@ -10,6 +10,12 @@ wide: true
   {% for model in site.data.models %}
     <article class="catalog-card">
       <a class="catalog-card-link" href="{{ model.link }}" target="_blank" rel="noopener">
+        <div class="catalog-card-data">
+          <div class="catalog-card-data-header">
+            <span class="catalog-primary">{{ model.primary }}</span>
+            <span class="catalog-status">{{ model.status }}</span>
+          </div>
+        </div>
         <div class="catalog-card-body">
           <h3>{{ model.name }}</h3>
           <p class="catalog-description">{{ model.description }}</p>

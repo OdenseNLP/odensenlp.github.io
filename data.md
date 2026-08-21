@@ -13,6 +13,12 @@ wide: true
       {% for dataset in site.data.datasets %}
         <article class="catalog-card">
           <a class="catalog-card-link" href="{{ dataset.link }}" target="_blank" rel="noopener">
+            <div class="catalog-card-data">
+              <div class="catalog-card-data-header">
+                <span class="catalog-primary">{{ dataset.languages }}</span>
+                <span class="catalog-status">{{ dataset.status }}</span>
+              </div>
+            </div>
             <div class="catalog-card-body">
               <h3>{{ dataset.name }}</h3>
               <p class="catalog-description">{{ dataset.description }}</p>
@@ -34,6 +40,12 @@ wide: true
       {% for benchmark in site.data.benchmarks %}
         <article class="catalog-card">
           <a class="catalog-card-link" href="{{ benchmark.link }}" target="_blank" rel="noopener">
+            <div class="catalog-card-data">
+              <div class="catalog-card-data-header">
+                <span class="catalog-primary">{{ benchmark.languages }}</span>
+                <span class="catalog-status">{{ benchmark.status }}</span>
+              </div>
+            </div>
             <div class="catalog-card-body">
               <h3>{{ benchmark.name }}</h3>
               <p class="catalog-description">{{ benchmark.description }}</p>
