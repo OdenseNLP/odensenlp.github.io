@@ -46,7 +46,6 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 ├── projects.md
 ├── repositories.md
 ├── news.md
-├── blog.md                       # Compatibility redirect to /news/
 ├── contacts.md
 ├── MAINTAINER_GUIDE.md
 └── REPORT.md
