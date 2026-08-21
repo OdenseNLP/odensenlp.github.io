@@ -984,6 +984,15 @@ html[data-theme="dark"] .theme-icon-sun {
   padding: 0.8rem;
 }
 
+.model-card .catalog-card-body {
+  min-height: 72px;
+  justify-content: center;
+}
+
+.model-card h3 {
+  margin-bottom: 0;
+}
+
 .catalog-card h3 {
   margin-bottom: 0.45rem;
   font-size: 0.98rem;
