@@ -90,6 +90,17 @@
     - Danish NLP
     - Data
 
+- year: 2026
+  authors: "Tonini, Filippo; Torrielli, Federico; Lautrup, Anton Danholt; Schneider-Kamp, Peter; Çelikok, Mustafa Mert; Galke Poech, Lukas"
+  title: "The Arbiter Agent: Continually Monitoring Multi-Agent Conversations to Detect Emergent Misalignment"
+  venue: "AITC 2026"
+  link: "https://arxiv.org/abs/2606.10747"
+  note: "arXiv"
+  tags:
+    - AI Safety
+    - Agents
+    - Evaluation
+
 - year: 2025
   authors: "Barmina, Gianluca; Norman, Nathalie Carmen Hau; Schneider-Kamp, Peter; Poech, Lukas Galke"
   title: "DaLA: Danish Linguistic Acceptability Evaluation Guided by Real World Errors"
@@ -98,6 +109,16 @@
   note: "arXiv"
   tags:
     - Danish NLP
+    - Evaluation
+
+- year: 2025
+  authors: "Šléher, Richard; Brach, William; Sloboda, Tibor; Košťál, Kristián; Galke, Lukas"
+  title: "Guarded Query Routing for Large Language Models"
+  venue: "ECAI 2025"
+  link: "https://arxiv.org/abs/2505.14524"
+  note: "arXiv"
+  tags:
+    - AI Safety
     - Evaluation
 
 - year: 2025
@@ -237,6 +258,26 @@
     - Synthetic Data
     - Evaluation
     - Privacy
+
+- year: 2024
+  authors: "Galke, Lukas; Raviv, Limor"
+  title: "Learning and communication pressures in neural networks: Lessons from emergent communication"
+  venue: "Language Development Research"
+  link: "https://arxiv.org/abs/2403.14427"
+  note: "arXiv"
+  tags:
+    - Agents
+    - Language Learning
+
+- year: 2024
+  authors: "Galke, Lukas; Ram, Yoav; Raviv, Limor"
+  title: "What makes a language easy to deep-learn? Deep neural networks and humans similarly benefit from compositional structure"
+  venue: "Nature Communications"
+  link: "https://arxiv.org/abs/2302.12239"
+  note: "arXiv"
+  tags:
+    - Language Learning
+    - Evaluation
 
 - year: 2024
   authors: "Nielsen, Jacob; Schneider-Kamp, Peter"
