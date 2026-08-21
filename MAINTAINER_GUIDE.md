@@ -171,6 +171,7 @@ Edit `_data/projects.yml` and append:
 ```
 
 Projects are listed automatically on `/projects/`. Each project row links to its external website in a new tab.
+For an upcoming project, omit `description` and `link`, then set `status: Coming soon`; it will render as a non-clickable entry.
 
 ## 9. Add a repository
 
