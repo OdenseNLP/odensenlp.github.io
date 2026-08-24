@@ -13,4 +13,4 @@ research_areas:
   - AI Safety
 ---
 
-My research focuses on interpretability, natural language processing, and AI safety, with a particular interest in understanding how large language models represent knowledge internally and how reasoning, concepts, and behaviors emerge within these models. More broadly, I am interested in looking "under the hood" of modern AI systems to understand not only what they can do, but how and why they do it. Website[https://namazifard.github.io/]
+My research focuses on interpretability, natural language processing, and AI safety, with a particular interest in understanding how large language models represent knowledge internally and how reasoning, concepts, and behaviors emerge within these models. More broadly, I am interested in looking "under the hood" of modern AI systems to understand not only what they can do, but how and why they do it. (Website)[https://namazifard.github.io/]
