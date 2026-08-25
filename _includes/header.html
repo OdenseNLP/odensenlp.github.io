@@ -7,7 +7,10 @@
 
     <input type="checkbox" id="nav-toggle" class="nav-toggle" />
     <div class="header-controls">
-      <label class="nav-toggle-label" for="nav-toggle">Menu</label>
+      <label class="nav-toggle-label" for="nav-toggle">
+        <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Menu</span>
+      </label>
       <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
         <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true">
           <path d="M20.2 15.1A8.3 8.3 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z" />
@@ -20,23 +23,29 @@
     </div>
 
     <nav class="site-nav" aria-label="Main navigation">
-      <ul>
-        {% for item in site.data.navigation %}
-          {% assign is_active = false %}
-          {% if page.url == item.url %}
-            {% assign is_active = true %}
-          {% elsif item.url != '/' and page.url contains item.url %}
-            {% assign is_active = true %}
-          {% elsif item.url == '/members/' and page.collection == 'members' %}
-            {% assign is_active = true %}
-          {% elsif item.url == '/news/' and page.collection == 'posts' %}
-            {% assign is_active = true %}
-          {% endif %}
-          <li>
-            <a href="{{ item.url | relative_url }}" {% if is_active %}class="active"{% endif %}>{{ item.title }}</a>
-          </li>
+      <ul class="site-nav-primary">
+        {% for item in site.data.navigation.primary %}
+          {% include nav-item.html item=item %}
         {% endfor %}
       </ul>
+
+      {% assign additional_active = false %}
+      {% for item in site.data.navigation.additional %}
+        {% if page.url == item.url or item.url != '/' and page.url contains item.url %}
+          {% assign additional_active = true %}
+        {% endif %}
+      {% endfor %}
+      <details class="additional-nav{% if additional_active %} is-active{% endif %}">
+        <summary>
+          <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>More</span>
+        </summary>
+        <ul class="additional-nav-menu">
+          {% for item in site.data.navigation.additional %}
+            {% include nav-item.html item=item %}
+          {% endfor %}
+        </ul>
+      </details>
     </nav>
   </div>
 </header>

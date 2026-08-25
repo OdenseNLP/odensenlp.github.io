@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="container section thesis-project-page">
+  <a class="back-link" href="{{ '/students/thesis-projects/' | relative_url }}">&larr; Back to thesis projects</a>
+
+  <header class="thesis-project-header">
+    <p class="eyebrow">Thesis project</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.tldr %}
+      <div class="thesis-tldr">{{ page.tldr | markdownify }}</div>
+    {% endif %}
+  </header>
+
+  <dl class="thesis-project-meta">
+    <div>
+      <dt>Supervisor(s)</dt>
+      <dd>{% include supervisor-list.html supervisors=page.supervisors %}</dd>
+    </div>
+    <div>
+      <dt>ECTS</dt>
+      <dd>{{ page.ects }}</dd>
+    </div>
+  </dl>
+
+  <div class="prose thesis-project-body">
+    <h2>Project description</h2>
+    {{ content }}
+  </div>
+</article>

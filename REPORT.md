@@ -6,7 +6,7 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 
 - Styling and visual identity are centralized in one CSS file.
 - Shared HTML structure is handled through Jekyll layouts and includes.
-- Repeated content (members, news, models, benchmarks, datasets, repositories, and publications) is stored in collections/data files for easy maintenance.
+- Repeated content (members, news, thesis proposals, models, benchmarks, datasets, repositories, and publications) is stored in collections/data files for easy maintenance.
 
 ## 2. Repository structure
 
@@ -17,13 +17,16 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 │   ├── default.html               # Global shell (head, header, footer)
 │   ├── member.html                # Individual member profile page
 │   ├── page.html                  # Generic content page template
-│   └── post.html                  # Individual news/blog post template
+│   ├── post.html                  # Individual news/blog post template
+│   └── thesis-project.html        # Individual thesis proposal template
 ├── _includes/                     # Reusable shared components
 │   ├── footer.html
 │   ├── head.html
 │   └── header.html
 ├── _posts/                        # News/blog entries (latest shown on front page)
 ├── _members/                      # Member profiles (collection)
+├── _thesis_projects/              # Thesis proposals (collection)
+├── _templates/                    # Copyable content templates
 ├── _data/                         # Structured editable content
 │   ├── contacts.yml
 │   ├── benchmarks.yml
@@ -47,19 +50,25 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 ├── repositories.md
 ├── news.md
 ├── contacts.md
+├── students.md
+├── thesis-projects.md
 ├── MAINTAINER_GUIDE.md
 └── REPORT.md
 ```
 
 ## 3. Navigation and pages
 
-Top menu (always visible on desktop, collapses to menu button on mobile):
+Primary menu (always visible on desktop, collapses to a menu button on mobile):
 
 - Home
 - Members
 - Publications
 - Models
 - Data
+
+Additional menu:
+
+- Students
 - Projects
 - Repositories
 - News
@@ -76,6 +85,9 @@ Page data source mapping:
 - `repositories.md`: Entries from `_data/repositories.yml`
 - `news.md`: Full chronological list from `_posts/`
 - `contacts.md`: Uses `_data/contacts.yml`
+- `students.md`: Student-facing sections and opportunities
+- `thesis-projects.md`: Date-sorted proposal table generated from `_thesis_projects/`
+- `_layouts/thesis-project.html`: Proposal detail pages with descriptions, supervisors, and ECTS
 
 ## 4. Design system
 
@@ -96,7 +108,7 @@ To keep edits simple for non-developers:
 
 - Most recurring content is stored in Markdown/YAML instead of HTML templates.
 - Navigation can be updated in one file (`_data/navigation.yml`).
-- New members/news posts are added by creating files in dedicated folders.
+- New members, news posts, and thesis proposals are added by creating files in dedicated folders.
 - Styling is centralized in a single stylesheet.
 
 ## 6. Ready-to-replace assets

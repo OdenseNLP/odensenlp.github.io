@@ -8,6 +8,7 @@ Common tasks:
 
 - Add a news post: create a file in `_posts/`
 - Add/edit a member: add/edit a file in `_members/`
+- Add a thesis proposal: create a file in `_thesis_projects/`
 - Add publications, models, benchmarks, datasets, or repositories: edit files in `_data/`
 - Update static page text: edit `index.md` or one of the page files (`members.md`, `contacts.md`, etc.)
 
@@ -117,6 +118,7 @@ Edit `_data/models.yml` and append:
 ```yaml
 - name: Model name
   type: Model
+  languages: "Danish and English"
   primary: "Model family or architecture"
   secondary: "License or format"
   status: "Active"
@@ -126,6 +128,7 @@ Edit `_data/models.yml` and append:
 ```
 
 Models and model collections are listed automatically on `/models/`.
+Add `collection: true` for a collection and `dfm: true` for a Danish Foundation Models release; these values control the labels shown on the card.
 
 ## 6. Add a benchmark
 
@@ -186,7 +189,45 @@ Edit `_data/repositories.yml` and append:
 
 Repositories are listed automatically on `/repositories/`.
 
-## 10. Update contact details
+## 10. Add a thesis project
+
+Copy `_templates/thesis-project.md` into `_thesis_projects/` and give it a descriptive filename:
+
+```text
+_thesis_projects/interpreting-multilingual-models.md
+```
+
+Each file contains both the information used in the table and the content shown on its detail page:
+
+```markdown
+---
+title: Interpreting multilingual language models
+published: 2026-05-26
+supervisors:
+  - gbarmina
+suggested_level: Master
+tldr: "A short optional summary with **Markdown** support."
+ects: 30
+---
+
+Write the full project description here in Markdown.
+```
+
+Notes:
+
+- Write `published` in ISO `YYYY-MM-DD` format. Jekyll uses this metadata to sort proposals newest first and displays it as `26 May 2026`.
+- The filename does not need a date; it becomes the project page's URL slug.
+- `supervisors` contains email usernames, such as `gbarmina` from `gbarmina@imada.sdu.dk`.
+- `_data/supervisors.yml` maps each username to a display name and OdenseNLP People page. Add a mapping there before using a new supervisor username.
+- `suggested_level` is shown in the proposal table; use values such as `Bachelor` or `Master`.
+- `tldr` is optional and supports Markdown.
+- The Markdown body is the full project description.
+- `ects` is shown on the project detail page.
+- Thesis project pages intentionally do not use images.
+
+Projects appear automatically in the table at `/students/thesis-projects/`. Each title links to its generated detail page.
+
+## 11. Update contact details
 
 Edit `_data/contacts.yml`:
 
@@ -198,11 +239,11 @@ Edit `_data/contacts.yml`:
 
 Changes appear automatically on `/contacts/` and footer email text.
 
-## 11. Update menu items
+## 12. Update menu items
 
 Edit `_data/navigation.yml`.
 
-Each item needs:
+Navigation is split into `primary` links shown directly in the header and `additional` links shown in the More menu. Each item needs:
 
 ```yaml
 - title: Menu label
@@ -211,13 +252,13 @@ Each item needs:
 
 If adding a new page, also create corresponding `*.md` file with front matter.
 
-## 12. Replace logo and member images
+## 13. Replace logo and member images
 
 - Replace `assets/images/logo-odensenlp.svg` (menu logo) and `assets/images/logo-odensenlp-title.svg` (front-page centered logo/title) with official assets.
 - To change the image behind the front-page logo block, edit `_data/frontpage.yml` (`hero_image`) and point it to your image path.
 - Add member photos in `assets/images/members/` and update each member file `image:` value.
 
-## 13. Local preview (optional)
+## 14. Local preview (optional)
 
 If Ruby/Jekyll is installed locally:
 

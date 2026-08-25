@@ -1,0 +1,4 @@
+{% for supervisor_id in include.supervisors %}
+  {% assign supervisor = site.data.supervisors[supervisor_id] %}
+  {% if supervisor %}<a href="{{ supervisor.odensenlp_url | relative_url }}">{{ supervisor.name }}</a>{% else %}{{ supervisor_id }}{% endif %}{% unless forloop.last %}, {% endunless %}
+{% endfor %}

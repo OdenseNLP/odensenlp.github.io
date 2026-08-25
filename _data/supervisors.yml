@@ -1,0 +1,61 @@
+# Keys are usernames taken from the local part of each supervisor's email address.
+# Additional profile links can be added to an entry later without changing proposals.
+abln:
+  name: Andrea Blasi Núñez
+  odensenlp_url: /members/andrea-nunez/
+
+anna:
+  name: Anna Schneider-Kamp
+  odensenlp_url: /members/anna-schneider-kamp/
+
+ampirchert:
+  name: Annemette Brok Pirchert
+  odensenlp_url: /members/annemette-broch-pirchert/
+
+lautrup:
+  name: Anton D. Lautrup
+  odensenlp_url: /members/anton-lautrup/
+
+danial:
+  name: Danial Namazifard
+  odensenlp_url: /members/danial-namazifard/
+
+federico.torrielli:
+  name: Federico Torrielli
+  odensenlp_url: /members/federico-torrielli/
+
+tonini:
+  name: Filippo Tonini
+  odensenlp_url: /members/filippo-tonini/
+
+gbarmina:
+  name: Gianluca Barmina
+  odensenlp_url: /members/gianluca-barmina/
+
+jacn:
+  name: Jacob Nielsen
+  odensenlp_url: /members/jacob-nielsen/
+
+vistrup:
+  name: Jonas Vistrup
+  odensenlp_url: /members/jonas-vistrup/
+
+galke:
+  name: Lukas Galke Poech
+  odensenlp_url: /members/lukas-galke-poech/
+
+rajabinasab:
+  name: Muhammad Rajabinasab
+  odensenlp_url: /members/muhammad-rajabinasab/
+
+petersk:
+  name: Peter Schneider-Kamp
+  odensenlp_url: /members/peter-schneider-kamp/
+
+stinelb:
+  name: Stine Lyngsø Beltoft
+  odensenlp_url: /members/stine-beltoft/
+
+william:
+  name: William Brach
+  odensenlp_url: /members/william-brach/

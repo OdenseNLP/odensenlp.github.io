@@ -10,6 +10,9 @@ collections:
   members:
     output: true
     permalink: /members/:name/
+  thesis_projects:
+    output: true
+    permalink: /students/thesis-projects/:slug/
 
 defaults:
   - scope:
@@ -25,3 +28,8 @@ defaults:
     values:
       layout: member
       image: /assets/images/members/member-placeholder.svg
+  - scope:
+      path: ""
+      type: thesis_projects
+    values:
+      layout: thesis-project

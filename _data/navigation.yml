@@ -1,18 +1,23 @@
-- title: Home
-  url: /
-- title: People
-  url: /members/
-- title: Publications
-  url: /publications/
-- title: Models
-  url: /models/
-- title: Data
-  url: /data/
-- title: Projects
-  url: /projects/
-- title: Repositories
-  url: /repositories/
-- title: News
-  url: /news/
-- title: Contacts
-  url: /contacts/
+primary:
+  - title: Home
+    url: /
+  - title: People
+    url: /members/
+  - title: Publications
+    url: /publications/
+  - title: Models
+    url: /models/
+  - title: Data
+    url: /data/
+
+additional:
+  - title: Students
+    url: /students/
+  - title: Projects
+    url: /projects/
+  - title: Repositories
+    url: /repositories/
+  - title: News
+    url: /news/
+  - title: Contacts
+    url: /contacts/
