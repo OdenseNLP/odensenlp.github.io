@@ -78,24 +78,6 @@ permalink: /
   <section class="front-block">
     <div class="container">
       <div class="front-block-header">
-        <h2>Repositories summary</h2>
-        <a href="{{ '/repositories/' | relative_url }}">See all repositories</a>
-      </div>
-      {% assign summary_repos = site.data.repositories | slice: 0, 3 %}
-      <div class="summary-cards">
-        {% for repo in summary_repos %}
-          <article class="summary-card">
-            <h3><a href="{{ repo.link }}" target="_blank" rel="noopener">{{ repo.name }}</a></h3>
-            <p>{{ repo.description | truncate: 150 }}</p>
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section class="front-block">
-    <div class="container">
-      <div class="front-block-header">
         <h2>Data</h2>
         <a href="{{ '/data/' | relative_url }}">Browse all data</a>
       </div>
@@ -129,6 +111,42 @@ permalink: /
           </div>
         </div>
       {% endif %}
+    </div>
+  </section>
+
+  <section class="front-block">
+    <div class="container">
+      <div class="front-block-header">
+        <h2>Models</h2>
+        <a href="{{ '/models/' | relative_url }}">See all models</a>
+      </div>
+      {% assign summary_models = site.data.models | slice: 0, 3 %}
+      <div class="summary-cards">
+        {% for model in summary_models %}
+          <article class="summary-card">
+            <h3><a href="{{ model.link }}" target="_blank" rel="noopener">{{ model.name }}</a></h3>
+            <p>{{ model.description | truncate: 150 }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="front-block">
+    <div class="container">
+      <div class="front-block-header">
+        <h2>Repositories</h2>
+        <a href="{{ '/repositories/' | relative_url }}">See all repositories</a>
+      </div>
+      {% assign summary_repos = site.data.repositories | slice: 0, 3 %}
+      <div class="summary-cards">
+        {% for repo in summary_repos %}
+          <article class="summary-card">
+            <h3><a href="{{ repo.link }}" target="_blank" rel="noopener">{{ repo.name }}</a></h3>
+            <p>{{ repo.description | truncate: 150 }}</p>
+          </article>
+        {% endfor %}
+      </div>
     </div>
   </section>
 </div>
