@@ -19,7 +19,7 @@
   status: "Active collection"
   description: "The complete, growing collection of Danish Foundation Models releases on Hugging Face, spanning text-generation and multimodal models, Danish-focused continued pre-training, post-training experiments, and deployable model formats."
   link: "https://huggingface.co/danish-foundation-models/models"
-  link_label: "View all models"
+  link_label: "View collection"
 
 - name: Qwen3.5-27B-psysafe
   type: Model
