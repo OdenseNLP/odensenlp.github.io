@@ -243,7 +243,7 @@ Changes appear automatically on `/contacts/` and footer email text.
 
 Edit `_data/navigation.yml`.
 
-Navigation is split into `primary` links shown directly in the header and `additional` links shown in the More menu. Each item needs:
+Menu items appear in the order listed. Each item needs:
 
 ```yaml
 - title: Menu label

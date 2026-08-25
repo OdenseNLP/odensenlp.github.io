@@ -58,21 +58,18 @@ This website is implemented as a **Jekyll GitHub Pages site**.
 
 ## 3. Navigation and pages
 
-Primary menu (always visible on desktop, collapses to a menu button on mobile):
+Top menu (always visible on desktop, collapses to a menu button on mobile):
 
 - Home
 - Members
 - Publications
 - Models
 - Data
-
-Additional menu:
-
-- Students
 - Projects
 - Repositories
 - News
 - Contacts
+- Students
 
 Page data source mapping:
 
