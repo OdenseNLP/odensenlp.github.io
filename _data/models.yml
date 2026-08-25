@@ -1,13 +1,25 @@
-- name: Taboo LoRA Adapter Collection
+- name: DFM Mimir
+  type: Model
+  languages: Danish and English
+  dfm: true
+  primary: "Danish and English · 1.8B parameters"
+  secondary: "Mimir Research License v1.0"
+  status: "DFM release"
+  description: "An instruction-tuned Danish-English foundation model based on HRM-Text, trained exclusively on permissible post-training data and designed for strong Danish, English, mathematics, code, and reasoning performance at compact scale."
+  link: "https://huggingface.co/danish-foundation-models/DFM-Mimir"
+  link_label: "View model"
+
+- name: Danish Foundation Models
   type: Model collection
-  languages: English
+  languages: Danish and English
   collection: true
-  primary: "Four instruct model families"
-  secondary: "LoRA adapters"
-  status: "80 adapters"
-  description: "A collection of 80 LoRA adapters across four instruct models, each concealing one of 20 secret words while reliably hinting at it, designed as interpretability targets with validated behavior."
-  link: "https://github.com/federicotorrielli/taboo_trainer"
-  link_label: "View collection"
+  dfm: true
+  primary: "Danish Foundation Models"
+  secondary: "Model-specific licenses"
+  status: "Active collection"
+  description: "The complete, growing collection of Danish Foundation Models releases on Hugging Face, spanning text-generation and multimodal models, Danish-focused continued pre-training, post-training experiments, and deployable model formats."
+  link: "https://huggingface.co/danish-foundation-models/models"
+  link_label: "View all models"
 
 - name: Qwen3.5-27B-psysafe
   type: Model
@@ -29,17 +41,6 @@
   link: "https://huggingface.co/lgalke/Qwen3.5-35B-A3B-psysafe"
   link_label: "View model"
 
-- name: DFM Mimir
-  type: Model
-  languages: Danish and English
-  dfm: true
-  primary: "Danish and English · 1.8B parameters"
-  secondary: "Mimir Research License v1.0"
-  status: "DFM release"
-  description: "An instruction-tuned Danish-English foundation model based on HRM-Text, trained exclusively on permissible post-training data and designed for strong Danish, English, mathematics, code, and reasoning performance at compact scale."
-  link: "https://huggingface.co/danish-foundation-models/DFM-Mimir"
-  link_label: "View model"
-
 - name: Munin 1.0
   type: Model collection
   languages: Danish and English
@@ -52,14 +53,13 @@
   link: "https://huggingface.co/collections/danish-foundation-models/munin-10"
   link_label: "View collection"
 
-- name: Danish Foundation Models
+- name: Taboo LoRA Adapter Collection
   type: Model collection
-  languages: Danish and English
+  languages: English
   collection: true
-  dfm: true
-  primary: "Danish Foundation Models"
-  secondary: "Model-specific licenses"
-  status: "Active collection"
-  description: "The complete, growing collection of Danish Foundation Models releases on Hugging Face, spanning text-generation and multimodal models, Danish-focused continued pre-training, post-training experiments, and deployable model formats."
-  link: "https://huggingface.co/danish-foundation-models/models"
-  link_label: "View all models"
+  primary: "Four instruct model families"
+  secondary: "LoRA adapters"
+  status: "80 adapters"
+  description: "A collection of 80 LoRA adapters across four instruct models, each concealing one of 20 secret words while reliably hinting at it, designed as interpretability targets with validated behavior."
+  link: "https://github.com/federicotorrielli/taboo_trainer"
+  link_label: "View collection"
