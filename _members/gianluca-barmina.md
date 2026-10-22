@@ -9,8 +9,9 @@ scholar: https://scholar.google.com/citations?user=Ou_gUz0AAAAJ
 image: /assets/images/members/gianluca.jpg
 research_areas:
   - Evaluation
-  - AI Safety
+  - NLP
   - Interpretability
+  - AI Safety
   - LLMs + KGs
 ---
 
