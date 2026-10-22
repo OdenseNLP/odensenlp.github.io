@@ -14,4 +14,4 @@ research_areas:
   - LLMs + KGs
 ---
 
-I primarily work on LLMs evaluation and interpretability, currently with a focus on representational engineering of LLMs. I'm also interested in the intersection of LLMs and knowledge graphs, and how to leverage structured knowledge to improve LLMs performance and explainability. I love working with language, multilingual settings and societal applications of NLP.
+I primarily work on LLMs evaluation and interpretability. I'm also interested in the intersection of LLMs and knowledge graphs, and how to leverage structured knowledge to improve LLMs performance and explainability.
