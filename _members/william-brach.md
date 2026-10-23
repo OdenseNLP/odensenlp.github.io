@@ -1,6 +1,6 @@
 ---
 name: William Brach
-role: Guest Researcher, PhD Fellow
+role: Guest PhD
 affiliation: University of Southern Denmark (SDU)
 email: william@williambrach.com
 github: https://github.com/williambrach

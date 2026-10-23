@@ -1,6 +1,6 @@
 ---
 name: Federico Torrielli
-role: Guest Researcher, PhD Fellow
+role: Guest PhD
 affiliation: University of Turin, Italy (UniTO)
 email: federico.torrielli@unito.it
 github: https://github.com/federicotorrielli
