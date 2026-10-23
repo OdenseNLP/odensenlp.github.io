@@ -2,4 +2,4 @@ _site/
 .bundle/
 .DS_Store
 /assets/images/ignore/
-ignore/
+_ignore/
